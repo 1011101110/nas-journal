@@ -2,26 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  body {
+    @apply bg-warm-50 text-warm-900;
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
+@layer components {
+  .prose-journal {
+    @apply prose prose-lg max-w-none;
+    @apply prose-headings:font-serif prose-headings:text-sage-800;
+    @apply prose-p:text-warm-800 prose-p:leading-relaxed;
+    @apply prose-a:text-sage-600 prose-a:no-underline hover:prose-a:underline;
+    @apply prose-strong:text-warm-900;
+    @apply prose-ul:text-warm-800 prose-ol:text-warm-800;
+    @apply prose-li:my-1;
+    @apply prose-blockquote:border-sage-300 prose-blockquote:text-warm-700;
+    @apply prose-hr:border-warm-200;
+  }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  .quick-ref-box {
+    @apply bg-amber-50 border border-amber-200 rounded-xl p-6 mb-8;
+    @apply shadow-sm;
+  }
+
+  .key-takeaways-box {
+    @apply bg-sage-50 border border-sage-200 rounded-xl p-6 mb-8;
+    @apply shadow-sm;
+  }
+
+  .product-rec-box {
+    @apply bg-warm-100 border border-warm-300 rounded-lg p-4 my-6;
+    @apply shadow-sm;
   }
 }

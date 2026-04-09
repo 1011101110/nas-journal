@@ -108,6 +108,8 @@ export const INTERVENTION_SLUGS = [
   'screen-time-reduction',
   'probiotics-gut-health',
   'omega-3s',
+  'theraplay',
+  'child-directed-therapy',
 ];
 
 // ─── Not Pursuing ─────────────────────────────────────────────────────────────
@@ -133,12 +135,25 @@ export const RESEARCH_SLUGS = [
   'long-term-outcomes',
   'nature-vs-nurture',
   'epigenetics',
+  'xylazine-polysubstance',
 ];
 
 // ─── About ────────────────────────────────────────────────────────────────────
 
 export function getAbout(): BaseContent | null {
   return loadMarkdown<BaseContent>(path.join(contentDirectory, 'about.md'));
+}
+
+// ─── Timeline ─────────────────────────────────────────────────────────────────
+
+export function getTimeline(): BaseContent | null {
+  return loadMarkdown<BaseContent>(path.join(contentDirectory, 'timeline.md'));
+}
+
+// ─── Medical System ───────────────────────────────────────────────────────────
+
+export function getNavigatingMedical(): BaseContent | null {
+  return loadMarkdown<BaseContent>(path.join(contentDirectory, 'navigating-medical.md'));
 }
 
 // ─── Markdown Renderer ────────────────────────────────────────────────────────

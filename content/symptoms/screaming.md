@@ -17,7 +17,7 @@ ageRelevance: ["newborn", "infant", "early-toddler", "toddler"]
 
 The high-pitched, continuous cry of NAS is documented from the first days of life. It's distinct from typical infant crying — higher frequency, more persistent, less responsive to normal soothing.
 
-The mechanism is direct: prenatal opioid exposure disrupts the developing autonomic nervous system, including the vagal tone that governs the transition between stress activation and calm. NAS infants have:
+The mechanism is direct: prenatal opioid exposure disrupts the developing autonomic nervous system, including the vagal tone that governs the transition between stress activation and calm. infant with POEs have:
 
 - Higher baseline arousal (harder to settle into calm)
 - Lower vagal tone (slower parasympathetic recovery after stress)
@@ -33,9 +33,9 @@ In older toddlers, the same mechanism drives screaming in meltdowns — the nerv
 **⚡ For infants:**
 
 1. **Reduce sensory input.** Dim the lights. Reduce sound. Swaddle firmly.
-2. **White noise.** Consistent, loud-ish white noise (not music) is regulating for many NAS infants. Brown noise or low-frequency static.
+2. **White noise.** Consistent, loud-ish white noise (not music) is regulating for many infant with POEs. Brown noise or low-frequency static.
 3. **Rhythmic movement.** Consistent rocking, swinging, or bouncing — same rhythm, not varied.
-4. **Skin-to-skin.** Where tolerated (some NAS infants are touch-sensitive), skin contact plus heartbeat rhythm.
+4. **Skin-to-skin.** Where tolerated (some infant with POEs are touch-sensitive), skin contact plus heartbeat rhythm.
 5. **Don't panic.** Your escalating distress will escalate theirs. This is the hardest part. ([Co-Regulation](/interventions/co-regulation))
 6. **Tag a co-caregiver.** If the screaming continues past 20–30 minutes, hand off. Caregiver dysregulation doesn't help.
 
@@ -54,7 +54,7 @@ In older toddlers, the same mechanism drives screaming in meltdowns — the nerv
 
 🏗️ **What to build into daily life:**
 
-**Identify the triggers.** Keep a simple log for 1 week: what time did screaming occur, what preceded it (hunger, fatigue, stimulation, transition), how long did it last. Patterns emerge. Most NAS kids have 2–3 reliable triggers.
+**Identify the triggers.** Keep a simple log for 1 week: what time did screaming occur, what preceded it (hunger, fatigue, stimulation, transition), how long did it last. Patterns emerge. Most POE kids have 2–3 reliable triggers.
 
 **Reduce environmental load.** Noisy, busy, bright environments raise the baseline. Reduce unnecessary sensory complexity in your home environment.
 

@@ -20,9 +20,16 @@ export default function AgePage() {
           >
             <div className="flex items-start justify-between">
               <div>
-                <h2 className="font-serif text-xl font-semibold text-gray-800 group-hover:text-sage-700 transition-colors">
-                  {stage.title}
-                </h2>
+                <div className="flex items-center gap-2">
+                  <h2 className="font-serif text-xl font-semibold text-gray-800 group-hover:text-sage-700 transition-colors">
+                    {stage.title}
+                  </h2>
+                  {Boolean(stage.current) && (
+                    <span className="inline-flex items-center gap-1 bg-sage-700 text-white text-[10px] font-semibold px-2 py-0.5 rounded-full">
+                      📍 We Are Here
+                    </span>
+                  )}
+                </div>
                 <p className="text-sm text-sage-600 font-medium mt-0.5">{stage.ageRange}</p>
                 {stage.summary && (
                   <p className="text-gray-600 mt-2 text-sm">{stage.summary}</p>

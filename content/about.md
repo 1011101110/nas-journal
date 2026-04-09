@@ -5,7 +5,7 @@ slug: "about"
 
 ## About This Site
 
-This site was built by an adoptive parent of a child with Neonatal Abstinence Syndrome.
+This site was built by an adoptive parent of a child with prenatal opioid exposure (POE).
 
 When we started this journey, the information available was either clinical (PubMed abstracts behind paywalls, NICU discharge packets) or narrative (forum posts, Facebook groups, personal blogs). There wasn't much in between — a resource that translated the science into practical, prioritized guidance without pretending the experience was something other than what it is.
 
@@ -13,9 +13,17 @@ This is that resource. Or an attempt at one.
 
 ---
 
+### A Note on Terminology
+
+This site uses **Prenatal Opioid Exposure (POE)** as the primary term for our child's condition. You'll also see NAS (Neonatal Abstinence Syndrome) used in places, particularly when discussing the acute withdrawal period in the NICU or when citing research that uses that term.
+
+The distinction matters: NAS refers specifically to the withdrawal syndrome in the newborn period. POE describes the child more accurately across their whole life — including the long-term neurological and developmental sequelae that continue well beyond the NICU. At 2.5 years old, our child's challenges are not NAS. They are the ongoing developmental impact of prenatal opioid exposure.
+
+---
+
 ### What This Site Is
 
-A practical guide to the neurobiological mechanisms behind NAS behaviors and the interventions that address them. Written for caregivers who want to understand *why* something works before deciding whether to invest in it.
+A practical guide to the neurobiological mechanisms behind POE-related behaviors and the interventions that address them. Written for caregivers who want to understand *why* something works before deciding whether to invest in it.
 
 The voice is direct because clarity is more useful than comfort. The content is organized by symptom and intervention because that's how caregivers actually look for help — not by chapter, but by "my kid is doing X, what do I do."
 
@@ -24,8 +32,8 @@ The voice is direct because clarity is more useful than comfort. The content is 
 ### What This Site Is Not
 
 - Medical advice. Consult your child's pediatrician and development team.
-- A comprehensive research database. For that: PubMed, the National Perinatal Association NAS resources, the AAP's guidance.
-- A community or support group. For that: NAS Parent Support groups on Facebook are the most active communities.
+- A comprehensive research database. For that: PubMed, the National Perinatal Association POE resources, the AAP's guidance.
+- A community or support group. For that: NAS/POE parent support groups on Facebook are the most active communities.
 - A finished product. This grows as we learn.
 
 ---

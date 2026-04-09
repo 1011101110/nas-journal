@@ -28,6 +28,13 @@ const interventions = [
   { slug: "screen-time-reduction", label: "Screen Time" },
   { slug: "probiotics-gut-health", label: "Probiotics" },
   { slug: "omega-3s", label: "Omega-3s" },
+  { slug: "theraplay", label: "Theraplay" },
+  { slug: "child-directed-therapy", label: "Child-Directed Therapy" },
+];
+
+const guides = [
+  { href: "/timeline", label: "Our Journey" },
+  { href: "/navigating-medical", label: "Medical System" },
 ];
 
 export default function Navigation() {
@@ -46,7 +53,7 @@ export default function Navigation() {
             href="/"
             className="font-serif text-lg font-medium text-sage-100 hover:text-white transition-colors"
           >
-            NAS Journal
+            POE Journal
           </Link>
 
           {/* Desktop nav */}
@@ -136,6 +143,48 @@ export default function Navigation() {
                       className="block px-4 py-2 text-sm hover:bg-sage-50 hover:text-sage-700"
                     >
                       {i.label}
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
+
+            {/* Our Journey */}
+            <Link
+              href="/timeline"
+              className={`px-3 py-2 rounded-md transition-colors ${
+                pathname === "/timeline"
+                  ? "bg-sage-600 text-white"
+                  : "text-sage-200 hover:bg-sage-700 hover:text-white"
+              }`}
+            >
+              Our Journey
+            </Link>
+
+            {/* Guides dropdown */}
+            <div
+              className="relative"
+              onMouseEnter={() => setDropdown("guides")}
+              onMouseLeave={() => setDropdown(null)}
+            >
+              <button
+                className={`px-3 py-2 rounded-md transition-colors ${
+                  isActive("/navigating-medical")
+                    ? "bg-sage-600 text-white"
+                    : "text-sage-200 hover:bg-sage-700 hover:text-white"
+                }`}
+              >
+                Guides ▾
+              </button>
+              {dropdown === "guides" && (
+                <div className="absolute top-full left-0 bg-white text-gray-800 rounded-md shadow-lg py-2 min-w-48 border border-gray-100">
+                  {guides.map((g) => (
+                    <Link
+                      key={g.href}
+                      href={g.href}
+                      className="block px-4 py-2 text-sm hover:bg-sage-50 hover:text-sage-700"
+                    >
+                      {g.label}
                     </Link>
                   ))}
                 </div>
@@ -235,6 +284,24 @@ export default function Navigation() {
                   onClick={() => setMobileOpen(false)}
                 >
                   {i.label}
+                </Link>
+              ))}
+            </div>
+
+            <div className="border-t border-sage-700 pt-3 mt-2">
+              <div className="text-xs text-sage-400 uppercase tracking-wide mb-1 px-3">Guides</div>
+              {guides.map((g) => (
+                <Link
+                  key={g.href}
+                  href={g.href}
+                  className={`block px-3 py-2 rounded-md text-sm transition-colors ${
+                    pathname === g.href
+                      ? "bg-sage-600 text-white"
+                      : "text-sage-200 hover:bg-sage-700"
+                  }`}
+                  onClick={() => setMobileOpen(false)}
+                >
+                  {g.label}
                 </Link>
               ))}
             </div>

@@ -26,7 +26,7 @@ A child born with NAS often enters a postnatal environment with multiple additio
 
 ### What the Adoption/Foster Studies Show
 
-Studies of NAS kids placed in stable, low-stress foster or adoptive homes from early infancy provide the clearest separation of prenatal and postnatal effects.
+Studies of POE kids placed in stable, low-stress foster or adoptive homes from early infancy provide the clearest separation of prenatal and postnatal effects.
 
 Findings from these studies:
 - Neurodevelopmental differences (language delay, attention, regulatory difficulties) persist even in stable postnatal environments — confirming prenatal exposure has real neurological effects

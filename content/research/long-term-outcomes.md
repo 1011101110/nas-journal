@@ -1,7 +1,7 @@
 ---
 title: "Long-Term Outcomes for NAS Kids"
 slug: "long-term-outcomes"
-summary: "What the research actually says about how NAS kids do at school age and beyond — and what variables matter most"
+summary: "What the research actually says about how POE kids do at school age and beyond — and what variables matter most"
 order: 2
 ---
 
@@ -13,11 +13,11 @@ order: 2
 
 ### What the Research Shows
 
-**Academic and cognitive:** Multiple studies show NAS kids have higher rates of learning disabilities, attention difficulties, and language delays at school age. Effect sizes vary — some studies show significant gaps, others show smaller differences when controlling for environmental factors.
+**Academic and cognitive:** Multiple studies show POE kids have higher rates of learning disabilities, attention difficulties, and language delays at school age. Effect sizes vary — some studies show significant gaps, others show smaller differences when controlling for environmental factors.
 
 **Behavioral:** ADHD diagnosis rates are elevated in NAS cohorts — 2–5x compared to general population in some studies. Emotional regulation difficulties persist into school age in a significant subset.
 
-**The good news from heterogeneity:** Outcomes vary enormously. Some NAS kids show minimal developmental impact by school age. The range of outcomes in NAS cohorts is wide — which means the outcome is not determined by the diagnosis.
+**The good news from heterogeneity:** Outcomes vary enormously. Some POE kids show minimal developmental impact by school age. The range of outcomes in NAS cohorts is wide — which means the outcome is not determined by the diagnosis.
 
 ---
 
@@ -39,6 +39,6 @@ What is less predictive than expected: NAS severity at birth (Finnegan score), s
 
 The research does not support fatalism. The neurological differences are real. The developmental lags are real. But the outcome trajectory is significantly shaped by what happens after birth — and most of what shapes it is within caregiver influence.
 
-This is both the burden and the opportunity of parenting an NAS child. The interventions matter. The consistency matters. The caregiver's own regulation and stability matter.
+This is both the burden and the opportunity of parenting an child with POE. The interventions matter. The consistency matters. The caregiver's own regulation and stability matter.
 
 → Related research: [What NAS Does to the Brain](/research/nas-brain) · [Nature vs. Nurture](/research/nature-vs-nurture)

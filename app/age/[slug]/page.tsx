@@ -28,8 +28,16 @@ export default async function AgeStage({ params }: { params: { slug: string } })
       </div>
 
       {/* Age badge */}
-      <div className="inline-block bg-sage-100 text-sage-700 text-xs font-semibold px-3 py-1 rounded-full mb-4">
-        {stage.ageRange}
+      <div className="flex items-center gap-2 mb-4">
+        <div className="inline-block bg-sage-100 text-sage-700 text-xs font-semibold px-3 py-1 rounded-full">
+          {stage.ageRange}
+        </div>
+        {Boolean(stage.current) && (
+          <div className="inline-flex items-center gap-1.5 bg-sage-700 text-white text-xs font-semibold px-3 py-1 rounded-full">
+            <span>📍</span>
+            <span>We Are Here</span>
+          </div>
+        )}
       </div>
 
       {/* Stage nav */}
@@ -38,13 +46,14 @@ export default async function AgeStage({ params }: { params: { slug: string } })
           <Link
             key={s.slug}
             href={`/age/${s.slug}`}
-            className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
+            className={`px-3 py-1 rounded-full text-xs font-medium transition-colors flex items-center gap-1 ${
               s.slug === params.slug
                 ? "bg-sage-700 text-white"
                 : "bg-gray-100 text-gray-600 hover:bg-sage-100 hover:text-sage-700"
             }`}
           >
             {s.title}
+            {Boolean(s.current) && <span title="Current stage">📍</span>}
           </Link>
         ))}
       </div>

@@ -9,7 +9,7 @@ ageRelevance: ["newborn", "infant", "early-toddler", "toddler"]
 
 ## Feeding Difficulties
 
-**The short version:** Feeding is hard for NAS kids from day one. Oral sensitivity, disrupted hunger cues, and anxiety at mealtimes create a cycle that feeding therapy and predictable structure can interrupt.
+**The short version:** Feeding is hard for POE kids from day one. Oral sensitivity, disrupted hunger cues, and anxiety at mealtimes create a cycle that feeding therapy and predictable structure can interrupt.
 
 ---
 
@@ -17,15 +17,15 @@ ageRelevance: ["newborn", "infant", "early-toddler", "toddler"]
 
 Feeding difficulties in NAS have multiple overlapping causes:
 
-**Oral-motor disorganization (infancy):** NAS infants often have uncoordinated suck-swallow-breathe patterns. Coordinated feeding requires rhythmic, organized motor output from the brainstem. NAS disrupts this. NICU feeding is often slow, difficult, and requires specialized nipples or thickening agents.
+**Oral-motor disorganization (infancy):** infant with POEs often have uncoordinated suck-swallow-breathe patterns. Coordinated feeding requires rhythmic, organized motor output from the brainstem. NAS disrupts this. NICU feeding is often slow, difficult, and requires specialized nipples or thickening agents.
 
 **Oral hypersensitivity:** The same sensory processing differences that create tactile sensitivity extend to the oral cavity. Certain textures, temperatures, and food properties trigger a defensive response. This is not pickiness — it's a sensory protection reflex.
 
-**Disrupted hunger-satiety signaling:** Prenatal opioid exposure affects the gut-brain axis, including hormonal hunger and satiety signals. Some NAS kids genuinely have difficulty reading their hunger state accurately.
+**Disrupted hunger-satiety signaling:** Prenatal opioid exposure affects the gut-brain axis, including hormonal hunger and satiety signals. Some POE kids genuinely have difficulty reading their hunger state accurately.
 
 **Mealtime anxiety accumulation:** After difficult early feeding experiences, mealtimes develop negative associations. Anxiety spikes cortisol before the fork even arrives. An anxious, activated child eating is harder in every way.
 
-**GI motility issues:** Some NAS kids have ongoing GI motility differences — constipation, reflux, irregular bowel patterns — that make eating physically uncomfortable. This is underrecognized.
+**GI motility issues:** Some POE kids have ongoing GI motility differences — constipation, reflux, irregular bowel patterns — that make eating physically uncomfortable. This is underrecognized.
 
 ---
 
@@ -62,7 +62,7 @@ This isn't permissive — it's neurologically informed. Removing the control bat
 - Look for therapists trained in the SOS (Sequential Oral Sensory) Approach or AEIOU Feeding Approach
 - Avoid therapy that involves pressure, gagging work, or forced exposure — these worsen oral sensitivity
 
-**Address GI issues:** If your child seems uncomfortable during or after eating, talk to your pediatrician about GI motility. Constipation specifically is common and underdiagnosed in NAS kids, and makes mealtimes physically unpleasant.
+**Address GI issues:** If your child seems uncomfortable during or after eating, talk to your pediatrician about GI motility. Constipation specifically is common and underdiagnosed in POE kids, and makes mealtimes physically unpleasant.
 
 ---
 

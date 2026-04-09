@@ -22,7 +22,7 @@ Two omega-3 fatty acids matter here:
 
 **DHA (Docosahexaenoic acid):** A structural component of neuronal membranes — particularly in the prefrontal cortex and visual cortex. The developing brain incorporates DHA into synaptic membranes throughout early childhood. Adequate DHA supports synaptic plasticity, which is the neurological basis for learning, behavioral adaptation, and — critically — the rewiring that behavioral therapy (PCIT) relies on.
 
-NAS kids have disrupted synaptic development from prenatal opioid exposure. Supporting the substrate for neuroplasticity has a logical mechanism.
+POE kids have disrupted synaptic development from prenatal opioid exposure. Supporting the substrate for neuroplasticity has a logical mechanism.
 
 **EPA (Eicosapentaenoic acid):** The anti-inflammatory partner. EPA reduces the production of pro-inflammatory cytokines. Neuroinflammation — elevated in kids with dysregulated stress systems — directly impairs prefrontal cortex function (executive function, emotional regulation) and raises sensory sensitivity.
 
@@ -59,7 +59,7 @@ In NAS specifically: prenatal opioid exposure disrupts dopaminergic and serotone
 | Heavy metals | Risk (check third-party testing) | Minimal risk |
 | Cost | Lower | Higher |
 
-For young children with taste sensitivity (common in NAS kids with feeding issues), algae-based is often more practical. The fish aftertaste causes refusal in many toddlers.
+For young children with taste sensitivity (common in POE kids with feeding issues), algae-based is often more practical. The fish aftertaste causes refusal in many toddlers.
 
 **Product considerations:**
 - Nordic Naturals Children's DHA (fish-based, well-tested, mild taste) — gummies or liquid
@@ -81,7 +81,7 @@ The research doesn't support omega-3s as a primary behavioral intervention. The 
 
 Worth doing because:
 - Risk is minimal (at pediatric doses)
-- Dietary DHA is often insufficient in young children (especially picky eaters, which many NAS kids are)
+- Dietary DHA is often insufficient in young children (especially picky eaters, which many POE kids are)
 - The developmental window matters — early childhood is when DHA incorporation into brain tissue is most active
 - Cost is low relative to other interventions
 

@@ -18,7 +18,7 @@ priority: "core"
 
 ### The Mechanism
 
-NAS kids have stress response systems wired differently from birth. The HPA axis (the brain's stress regulation circuit) developed in an environment of opioid exposure, producing a nervous system with a lower threshold for dysregulation and a slower return to baseline after stress.
+POE kids have stress response systems wired differently from birth. The HPA axis (the brain's stress regulation circuit) developed in an environment of opioid exposure, producing a nervous system with a lower threshold for dysregulation and a slower return to baseline after stress.
 
 PCIT works by leveraging the most powerful regulator available to a child: the parent.
 
@@ -86,4 +86,4 @@ If you can only do one structured intervention, this is it.
 
 **What you won't see:** Immediate results. A complete elimination of meltdowns. PCIT reduces frequency and severity — it doesn't eliminate the underlying neurodevelopmental difference.
 
-Families typically see meaningful behavioral improvement by month 3. Full graduation takes 14–20 sessions on average, with NAS kids often on the longer end.
+Families typically see meaningful behavioral improvement by month 3. Full graduation takes 14–20 sessions on average, with POE kids often on the longer end.

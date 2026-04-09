@@ -1,7 +1,7 @@
 ---
 title: "Transition Meltdowns"
 slug: "transitions"
-summary: "Every transition is an uncertainty event — NAS kids' nervous systems treat uncertainty as threat"
+summary: "Every transition is an uncertainty event — POE kids' nervous systems treat uncertainty as threat"
 relatedInterventions: ["routines-predictability", "co-regulation", "pcit", "screen-time-reduction"]
 relatedSymptoms: ["tantrums", "sensory-overload"]
 ageRelevance: ["early-toddler", "toddler", "older-toddler"]
@@ -9,17 +9,17 @@ ageRelevance: ["early-toddler", "toddler", "older-toddler"]
 
 ## Transition Meltdowns
 
-**The short version:** Transitions are hard for NAS kids because their nervous systems are hypervigilant to uncertainty. Every "what comes next?" is a potential cortisol spike. The fix is predictability, not flexibility.
+**The short version:** Transitions are hard for POE kids because their nervous systems are hypervigilant to uncertainty. Every "what comes next?" is a potential cortisol spike. The fix is predictability, not flexibility.
 
 ---
 
 ### Why This Happens in NAS Kids
 
-Transitions require the prefrontal cortex to manage a sequence: disengage from current activity, tolerate uncertainty about what comes next, shift to new activity. For a neurotypical child, this is effortful but manageable. For a NAS child, each step has elevated cost.
+Transitions require the prefrontal cortex to manage a sequence: disengage from current activity, tolerate uncertainty about what comes next, shift to new activity. For a neurotypical child, this is effortful but manageable. For a child with POE, each step has elevated cost.
 
-**The uncertainty problem.** NAS kids' stress response systems are tuned to hypervigilance — a legacy of developing in an environment of neurological stress. Uncertainty about what comes next reads as potential threat. Cortisol spikes before the transition even starts. The child arrives at the transition already activated.
+**The uncertainty problem.** POE kids' stress response systems are tuned to hypervigilance — a legacy of developing in an environment of neurological stress. Uncertainty about what comes next reads as potential threat. Cortisol spikes before the transition even starts. The child arrives at the transition already activated.
 
-**The disengagement problem.** Stopping a preferred activity requires inhibitory control — a prefrontal cortex function that's underdeveloped in NAS kids. Pulling attention away from something engaging while already elevated is genuinely hard.
+**The disengagement problem.** Stopping a preferred activity requires inhibitory control — a prefrontal cortex function that's underdeveloped in POE kids. Pulling attention away from something engaging while already elevated is genuinely hard.
 
 **The screen amplifier.** Transitions out of screen time are the hardest. Screens provide an unusually high-stimulation, high-dopamine input. The gap between screen and real-world stimulation is largest, and the cortisol spike is worst. ([Screen Time Reduction](/interventions/screen-time-reduction))
 

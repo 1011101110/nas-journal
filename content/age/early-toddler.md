@@ -14,23 +14,23 @@ order: 3
 
 ### What's Happening Neurologically
 
-The prefrontal cortex (PFC) — which governs impulse control, emotional regulation, and planning — doesn't fully mature until the mid-20s. In the early toddler period, it's just coming online. For NAS kids, it's coming online later and with less robust connectivity.
+The prefrontal cortex (PFC) — which governs impulse control, emotional regulation, and planning — doesn't fully mature until the mid-20s. In the early toddler period, it's just coming online. For POE kids, it's coming online later and with less robust connectivity.
 
 The result: high-mobility, high-curiosity child with very limited inhibitory control and a stress response system that activates faster and recovers more slowly than peers.
 
-Normal toddler challenges are real challenges for every child. For NAS kids, they're harder, more intense, and more persistent.
+Normal toddler challenges are real challenges for every child. For POE kids, they're harder, more intense, and more persistent.
 
 ---
 
 ### What to Expect
 
-**Tantrums begin.** This is the start of the classic NAS behavioral window. Tantrums in NAS kids are more frequent, more intense, and longer than typical toddler tantrums. The mechanism is neurological. ([Tantrums](/symptoms/tantrums))
+**Tantrums begin.** This is the start of the classic NAS behavioral window. Tantrums in POE kids are more frequent, more intense, and longer than typical toddler tantrums. The mechanism is neurological. ([Tantrums](/symptoms/tantrums))
 
 **Transition meltdowns.** Every transition is a demand on limited executive function and a potential cortisol spike. Meal transitions, activity transitions, leaving the house — all become higher-stakes. ([Transitions](/symptoms/transitions))
 
 **Increased sensory seeking or avoidance.** Mobility gives the child access to more sensory inputs. Sensory-seeking behavior (spinning, crashing, chewing, mouthing) is a self-regulation attempt. Sensory avoidance (refusing textures, locations, sounds) is a stress response. ([Sensory Overload](/symptoms/sensory-overload))
 
-**Feeding complexity increases.** Solid food variety is expected to expand. For NAS kids with oral hypersensitivity, this is when selective eating becomes pronounced. ([Feeding](/symptoms/feeding))
+**Feeding complexity increases.** Solid food variety is expected to expand. For POE kids with oral hypersensitivity, this is when selective eating becomes pronounced. ([Feeding](/symptoms/feeding))
 
 ---
 
@@ -40,7 +40,7 @@ Normal toddler challenges are real challenges for every child. For NAS kids, the
 
 **Consistent daily routine:** The most impactful structural intervention for this age. Same wake time, meal times, nap time, bedtime sequence — every day. This is the period where predictability pays its biggest dividends. ([Routines & Predictability](/interventions/routines-predictability))
 
-**Visual communication supports:** Many NAS kids have language delays. Visual schedules, PECS communication, and sign language reduce frustration (and meltdowns) when words aren't available. Ask your early intervention SLP about augmentative communication.
+**Visual communication supports:** Many POE kids have language delays. Visual schedules, PECS communication, and sign language reduce frustration (and meltdowns) when words aren't available. Ask your early intervention SLP about augmentative communication.
 
 **Outdoor time daily:** Proprioceptive input (climbing, running, jumping), fresh air, and natural sensory environments are regulatory. 60+ minutes of outdoor time daily is a realistic goal with real behavioral benefit.
 

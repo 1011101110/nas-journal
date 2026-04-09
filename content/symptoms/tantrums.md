@@ -15,9 +15,9 @@ ageRelevance: ["early-toddler", "toddler", "older-toddler"]
 
 ### Why This Happens in NAS Kids
 
-All toddlers tantrum. NAS kids tantrum more frequently, more intensely, and for longer.
+All toddlers tantrum. POE kids tantrum more frequently, more intensely, and for longer.
 
-The reason is structural. Prenatal opioid exposure disrupts the developing HPA axis — the stress response circuit that includes the amygdala (threat detection), prefrontal cortex (regulation, reasoning), and hypothalamus (cortisol release). NAS kids emerge with:
+The reason is structural. Prenatal opioid exposure disrupts the developing HPA axis — the stress response circuit that includes the amygdala (threat detection), prefrontal cortex (regulation, reasoning), and hypothalamus (cortisol release). POE kids emerge with:
 
 - Lower threshold for stress activation
 - Slower return to baseline after activation

@@ -18,7 +18,7 @@ priority: "core"
 
 ### The Mechanism
 
-NAS kids have disrupted dopamine systems from prenatal opioid exposure. The dopamine reward pathway — responsible for motivation, pleasure, and anticipation — was shaped in an environment of opioid signaling. It calibrates differently.
+POE kids have disrupted dopamine systems from prenatal opioid exposure. The dopamine reward pathway — responsible for motivation, pleasure, and anticipation — was shaped in an environment of opioid signaling. It calibrates differently.
 
 Screens deliver high-stimulation, high-dopamine reward at essentially zero effort. Bright colors, fast cuts, sound effects, character voices — optimized (literally, by engineers) to maximize engagement. For a child with a dysregulated dopamine system, this is a particularly powerful input.
 
@@ -28,7 +28,7 @@ Two problems follow:
 
 **2. Transition shock.** Cutting from high-stimulation screen activity to a low-stimulation demand (lunch, quiet play, going outside) is a cortisol spike. The bigger the screen-to-reality gap, the harder the transition.
 
-For NAS kids specifically, these effects are amplified. Their dopamine systems have less buffering capacity.
+For POE kids specifically, these effects are amplified. Their dopamine systems have less buffering capacity.
 
 ---
 
@@ -82,7 +82,7 @@ Screen reduction is foundational because it affects every other intervention's e
 - Co-regulation is harder (child needs more to feel regulated)
 - The benefit of outdoor time and sensory play is reduced
 
-It's not that screens are uniquely evil. It's that for NAS kids with dopamine system differences, the dose-response relationship is steeper. The same amount of screen time that's fine for a neurotypical child may be significantly dysregulating for an NAS child.
+It's not that screens are uniquely evil. It's that for POE kids with dopamine system differences, the dose-response relationship is steeper. The same amount of screen time that's fine for a neurotypical child may be significantly dysregulating for an child with POE.
 
 ---
 

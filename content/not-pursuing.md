@@ -28,7 +28,7 @@ Tone: This isn't dismissive. Some of these have real advocates. The question is 
 
 **What the evidence actually shows:** The opioid peptide hypothesis has not been substantiated in controlled research. Multiple systematic reviews have found no reliable evidence that GFCF diets improve behavioral outcomes in children without confirmed celiac disease or dairy allergy. The studies that show effects are methodologically weak (unblinded, small, no control groups).
 
-**Why it's not a current priority:** GFCF diet is one of the most effort-intensive dietary interventions for families with young children. Dairy and wheat are primary calorie and protein sources for most toddlers, especially selective eaters (which describes most NAS kids). The dietary restriction risk (inadequate calcium, vitamin D, caloric intake) is real. The evidence doesn't justify that risk and effort.
+**Why it's not a current priority:** GFCF diet is one of the most effort-intensive dietary interventions for families with young children. Dairy and wheat are primary calorie and protein sources for most toddlers, especially selective eaters (which describes most POE kids). The dietary restriction risk (inadequate calcium, vitamin D, caloric intake) is real. The evidence doesn't justify that risk and effort.
 
 *Exception: if your child has confirmed celiac disease, lactose intolerance, or dairy allergy, elimination is appropriate on clinical grounds, not behavioral ones.*
 
@@ -50,7 +50,7 @@ Tone: This isn't dismissive. Some of these have real advocates. The question is 
 
 **What the evidence actually shows:** For nightshade elimination and oxalate restriction specifically, the evidence base in behavioral pediatrics is essentially anecdotal. The histamine connection has some biological plausibility and limited research in a subset of children with suspected histamine intolerance — but "suspected" is doing heavy lifting. Sugar causing behavioral dysregulation (outside of blood sugar swings from inconsistent meals) is a persistent parenting myth not supported by controlled research.
 
-**Why it's not a current priority:** Young selective eaters (NAS kids in particular) cannot sustain aggressive dietary restriction without significant nutritional risk. The expected benefit is theoretical; the cost to mealtime peace and dietary variety is concrete. Consistent mealtimes and the [Division of Responsibility](/interventions/routines-predictability) approach will do more for mealtime behavior than elimination diets.
+**Why it's not a current priority:** Young selective eaters (POE kids in particular) cannot sustain aggressive dietary restriction without significant nutritional risk. The expected benefit is theoretical; the cost to mealtime peace and dietary variety is concrete. Consistent mealtimes and the [Division of Responsibility](/interventions/routines-predictability) approach will do more for mealtime behavior than elimination diets.
 
 ---
 

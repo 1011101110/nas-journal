@@ -17,13 +17,13 @@ ageRelevance: ["infant", "early-toddler", "toddler", "older-toddler"]
 
 Overstimulation is distinct from sensory overload — though they overlap. Sensory overload is an acute response to a specific sensory environment. Overstimulation is cumulative: the nervous system's stress load has been building all day, and a trigger that would otherwise be minor pushes it over threshold.
 
-NAS kids have two structural problems that make overstimulation more likely:
+POE kids have two structural problems that make overstimulation more likely:
 
-**1. Lower capacity.** The HPA axis in NAS kids runs hotter — elevated baseline cortisol, lower threshold for activation, slower recovery. Their capacity "bucket" is smaller and empties faster.
+**1. Lower capacity.** The HPA axis in POE kids runs hotter — elevated baseline cortisol, lower threshold for activation, slower recovery. Their capacity "bucket" is smaller and empties faster.
 
-**2. Slower recovery.** Between stressors, neurotypical kids' nervous systems recover relatively quickly. NAS kids' recovery is slower. Each new stressor that arrives before full recovery from the last one accumulates. By late afternoon, the bucket is nearly full, and it takes almost nothing to tip it.
+**2. Slower recovery.** Between stressors, neurotypical kids' nervous systems recover relatively quickly. POE kids' recovery is slower. Each new stressor that arrives before full recovery from the last one accumulates. By late afternoon, the bucket is nearly full, and it takes almost nothing to tip it.
 
-This is why the late afternoon / early evening is consistently the worst window for NAS kids. It's not random. It's accumulated load from the day.
+This is why the late afternoon / early evening is consistently the worst window for POE kids. It's not random. It's accumulated load from the day.
 
 ---
 
@@ -77,7 +77,7 @@ This is why the late afternoon / early evening is consistently the worst window 
 
 **Compression vest** (Harkla or similar sensory OT rec): For kids who are sensory seekers, a compression vest during high-stimulation environments provides the deep pressure input that reduces nervous system scanning for input. Takes time to find the right fit and acceptance.
 
-**Swing (indoor or outdoor):** Vestibular input — the sensation of rhythmic movement — is specifically regulating for many NAS kids. A small indoor swing in a low-stimulation corner of the house provides on-demand regulation.
+**Swing (indoor or outdoor):** Vestibular input — the sensation of rhythmic movement — is specifically regulating for many POE kids. A small indoor swing in a low-stimulation corner of the house provides on-demand regulation.
 
 ---
 

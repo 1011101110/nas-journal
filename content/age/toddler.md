@@ -14,7 +14,7 @@ order: 4
 
 ### What's Happening Neurologically
 
-Language development creates a significant cognitive and regulatory shift between 18 and 24 months. The ability to label internal states — "mad," "scared," "too loud" — gives the child a tool for communicating distress before it escalates. For NAS kids, this shift is delayed in many cases, but it comes.
+Language development creates a significant cognitive and regulatory shift between 18 and 24 months. The ability to label internal states — "mad," "scared," "too loud" — gives the child a tool for communicating distress before it escalates. For POE kids, this shift is delayed in many cases, but it comes.
 
 Simultaneously, the prefrontal cortex-amygdala connection is strengthening. The regulatory pathway is being built. PCIT and co-regulation during this window are literally building this connection through repeated relational experience.
 
@@ -26,7 +26,7 @@ This is the prime window for PCIT. The child has enough language to understand c
 
 **Tantrums continue — but begin to be shaped by intervention.** By 18–24 months with consistent PCIT and routine, you should see some pattern change: either shorter recovery, less frequent activation, or both. If you're not seeing any movement, assess whether the routine and CDI practice are truly consistent. ([Tantrums](/symptoms/tantrums))
 
-**Language both helps and creates new demands.** "No" becomes a full weapon. Negotiation attempts increase. The child now has opinions about everything and the word to express them. Language delays are common; many NAS kids qualify for speech services.
+**Language both helps and creates new demands.** "No" becomes a full weapon. Negotiation attempts increase. The child now has opinions about everything and the word to express them. Language delays are common; many POE kids qualify for speech services.
 
 **Transition meltdowns typically peak around 20–24 months.** This is when the child understands that transitions are coming but doesn't yet have the regulatory capacity to manage them consistently. ([Transitions](/symptoms/transitions))
 
@@ -53,7 +53,7 @@ By 24 months, you should have comprehensive data on:
 - Social-emotional development: joint attention, social referencing, play reciprocity
 - Regulatory capacity: meltdown frequency, recovery time, triggers
 
-A developmental pediatrician assessment at 24 months is standard of care for NAS kids. This is the point where secondary diagnoses may emerge (ADHD traits, sensory processing disorder, language delay, autism screening if indicated).
+A developmental pediatrician assessment at 24 months is standard of care for POE kids. This is the point where secondary diagnoses may emerge (ADHD traits, sensory processing disorder, language delay, autism screening if indicated).
 
 ---
 

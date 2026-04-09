@@ -3,7 +3,7 @@ title: "Routines & Predictability"
 slug: "routines-predictability"
 summary: "Predictable structure reduces cognitive load and lowers the cortisol baseline that drives most behavioral challenges"
 timeHorizon: "weeks"
-mechanism: "Predictable sequences reduce anticipatory cortisol spikes by eliminating uncertainty — the primary driver of HPA axis activation in NAS kids"
+mechanism: "Predictable sequences reduce anticipatory cortisol spikes by eliminating uncertainty — the primary driver of HPA axis activation in POE kids"
 crossCuts: ["transitions", "tantrums", "sleep", "feeding"]
 priority: "core"
 ---
@@ -18,7 +18,7 @@ priority: "core"
 
 ### The Mechanism
 
-NAS kids have elevated baseline cortisol. Their HPA axis (the stress response system) was shaped by prenatal opioid exposure and is chronically running hotter than typical. This means:
+POE kids have elevated baseline cortisol. Their HPA axis (the stress response system) was shaped by prenatal opioid exposure and is chronically running hotter than typical. This means:
 
 1. They reach their threshold faster than other kids
 2. They recover from activation more slowly

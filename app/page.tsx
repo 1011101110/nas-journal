@@ -22,13 +22,13 @@ export default function Home() {
       <section className="bg-warm-50 border-b border-warm-200 py-16 px-4">
         <div className="max-w-4xl mx-auto">
           <h1 className="font-serif text-4xl md:text-5xl font-bold text-gray-800 mb-5 leading-tight">
-            NAS Journal
+            A Parent&apos;s Journal: Prenatal Opioid Exposure
           </h1>
           <p className="text-xl text-gray-600 mb-4 max-w-2xl leading-relaxed">
-            A practical resource for parents navigating Neonatal Abstinence Syndrome.
+            A practical resource for parents and caregivers of children with prenatal opioid exposure (POE).
           </p>
           <p className="text-base text-gray-500 max-w-2xl">
-            Every behavioral challenge in NAS kids traces back to a dysregulated stress response
+            Every behavioral challenge in children with prenatal opioid exposure traces back to a dysregulated stress response
             system — a nervous system wired differently from birth. This site explains the
             mechanisms and what to do about them.
           </p>

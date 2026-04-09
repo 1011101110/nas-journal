@@ -9,19 +9,19 @@ ageRelevance: ["newborn", "infant", "early-toddler", "toddler"]
 
 ## Sleep Disruption
 
-**The short version:** NAS kids sleep differently because their nervous systems regulate differently. Falling asleep requires a nervous system transition to calm — and that transition is structurally harder for these kids.
+**The short version:** POE kids sleep differently because their nervous systems regulate differently. Falling asleep requires a nervous system transition to calm — and that transition is structurally harder for these kids.
 
 ---
 
 ### Why This Happens in NAS Kids
 
-Sleep onset requires the parasympathetic nervous system to take over from the sympathetic system — the shift from activated to calm. For NAS kids, this transition is harder for two reasons:
+Sleep onset requires the parasympathetic nervous system to take over from the sympathetic system — the shift from activated to calm. For POE kids, this transition is harder for two reasons:
 
-**1. Low vagal tone.** Vagal tone is the measure of parasympathetic nervous system function. Higher vagal tone = faster, easier transition to calm. NAS kids have disrupted autonomic development and chronically lower vagal tone. Falling asleep takes longer and requires more external support.
+**1. Low vagal tone.** Vagal tone is the measure of parasympathetic nervous system function. Higher vagal tone = faster, easier transition to calm. POE kids have disrupted autonomic development and chronically lower vagal tone. Falling asleep takes longer and requires more external support.
 
-**2. Disrupted melatonin and cortisol rhythms.** The sleep-wake cycle is regulated by melatonin (sleep) and cortisol (waking). NAS kids have dysregulated HPA axis function — cortisol spikes at the wrong times, melatonin signals may be blunted. Circadian rhythm is less stable, so sleep onset and wake timing are less predictable.
+**2. Disrupted melatonin and cortisol rhythms.** The sleep-wake cycle is regulated by melatonin (sleep) and cortisol (waking). POE kids have dysregulated HPA axis function — cortisol spikes at the wrong times, melatonin signals may be blunted. Circadian rhythm is less stable, so sleep onset and wake timing are less predictable.
 
-**3. Sensory hypersensitivity.** Many NAS kids are wakened by sensory inputs that wouldn't disturb a typical child — a door closing, a light change, a positional shift. Light sleep stages (where these stimuli can trigger arousal) are more frequent.
+**3. Sensory hypersensitivity.** Many POE kids are wakened by sensory inputs that wouldn't disturb a typical child — a door closing, a light change, a positional shift. Light sleep stages (where these stimuli can trigger arousal) are more frequent.
 
 In infancy, this presents as difficulty settling, frequent night waking, and short sleep cycles. In toddlers, it's often difficulty falling asleep even when clearly tired, and early morning waking.
 
@@ -54,7 +54,7 @@ In infancy, this presents as difficulty settling, frequent night waking, and sho
 
 **The bedtime sequence.** 3–5 steps, same order, every night. Not flexible. The sequence cues the nervous system that sleep is coming. After 2–3 weeks, you'll see the child's body relax when the sequence starts.
 
-**Adequate daytime physical activity.** Physical activity increases sleep drive. NAS kids who are physically active during the day sleep better. Outdoor time specifically has additional benefits via light exposure (circadian regulation) and proprioceptive input (regulating).
+**Adequate daytime physical activity.** Physical activity increases sleep drive. POE kids who are physically active during the day sleep better. Outdoor time specifically has additional benefits via light exposure (circadian regulation) and proprioceptive input (regulating).
 
 **Limit stimulation in the 60 minutes before bed.** Screens, fast-paced play, novel exciting experiences — all spike cortisol and delay sleep onset. The wind-down window matters.
 

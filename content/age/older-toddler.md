@@ -4,6 +4,7 @@ slug: "older-toddler"
 ageRange: "24 – 36 months"
 summary: "The preschool ramp-up — behavioral patterns consolidate, school readiness becomes real"
 order: 5
+current: true
 ---
 
 ## Older Toddler (24 – 36 months)
@@ -14,9 +15,9 @@ order: 5
 
 ### What's Happening Neurologically
 
-The 24–36 month window is a critical regulatory maturation period. Executive function — planning, inhibitory control, working memory — is developing rapidly. For NAS kids, this development is present but delayed relative to peers.
+The 24–36 month window is a critical regulatory maturation period. Executive function — planning, inhibitory control, working memory — is developing rapidly. For POE kids, this development is present but delayed relative to peers.
 
-The regulatory capacity difference that was hard to distinguish from "typical toddler behavior" at 18 months is now more visible against peers. NAS kids at 3 years may be functioning behaviorally at a 18–24 month level in regulation terms. This is important for:
+The regulatory capacity difference that was hard to distinguish from "typical toddler behavior" at 18 months is now more visible against peers. POE kids at 3 years may be functioning behaviorally at a 18–24 month level in regulation terms. This is important for:
 - Setting realistic expectations
 - Communicating with preschool staff
 - Advocating for appropriate support
@@ -29,11 +30,11 @@ This is not a permanent gap. Regulatory maturation continues into school age and
 
 **Tantrums should be decreasing** if intervention has been consistent. Not absent — decreasing. Frequency, intensity, and recovery time should all show improvement trend by 30–36 months with PCIT + routine. If they're not, reassess the intervention consistency and consider additional support. ([Tantrums](/symptoms/tantrums))
 
-**Preschool readiness is a real challenge.** Preschool introduces exactly the conditions that dysregulate NAS kids: novel environment, group expectations, multiple transitions, sensory complexity, teacher who doesn't know your child's regulation patterns. Preschool may be harder than home — this is expected, not a failure.
+**Preschool readiness is a real challenge.** Preschool introduces exactly the conditions that dysregulate POE kids: novel environment, group expectations, multiple transitions, sensory complexity, teacher who doesn't know your child's regulation patterns. Preschool may be harder than home — this is expected, not a failure.
 
-**Peer social development.** Parallel play transitions to interactive play. NAS kids often have social-emotional lags — difficulty reading social cues, intense reactions to peer conflict, sensory issues with proximity and noise in group settings.
+**Peer social development.** Parallel play transitions to interactive play. POE kids often have social-emotional lags — difficulty reading social cues, intense reactions to peer conflict, sensory issues with proximity and noise in group settings.
 
-**Language as a regulatory tool.** By 36 months, many NAS kids can begin to use language in the regulatory sequence: identifying the feeling, communicating distress before it escalates. This is a major developmental milestone. Work toward it explicitly.
+**Language as a regulatory tool.** By 36 months, many POE kids can begin to use language in the regulatory sequence: identifying the feeling, communicating distress before it escalates. This is a major developmental milestone. Work toward it explicitly.
 
 ---
 

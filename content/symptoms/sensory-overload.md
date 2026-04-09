@@ -1,7 +1,7 @@
 ---
 title: "Sensory Overload"
 slug: "sensory-overload"
-summary: "NAS kids have a lower sensory threshold — inputs that are background noise for other kids are genuinely overwhelming"
+summary: "POE kids have a lower sensory threshold — inputs that are background noise for other kids are genuinely overwhelming"
 relatedInterventions: ["routines-predictability", "co-regulation", "screen-time-reduction", "omega-3s"]
 relatedSymptoms: ["screaming", "overstimulation", "tantrums", "transitions"]
 ageRelevance: ["newborn", "infant", "early-toddler", "toddler", "older-toddler"]
@@ -15,7 +15,7 @@ ageRelevance: ["newborn", "infant", "early-toddler", "toddler", "older-toddler"]
 
 ### Why This Happens in NAS Kids
 
-Sensory processing involves two functions the brain performs simultaneously: amplifying important signals and suppressing irrelevant ones. The second function — sensory gating, or suppression — is where NAS kids have a deficit.
+Sensory processing involves two functions the brain performs simultaneously: amplifying important signals and suppressing irrelevant ones. The second function — sensory gating, or suppression — is where POE kids have a deficit.
 
 Prenatal opioid exposure disrupts development of the thalamus and sensory cortices, which are responsible for filtering sensory input. The result: sensory information that the brain should be filtering as background noise isn't filtered. Everything comes through louder.
 
@@ -27,7 +27,7 @@ Specific sensory channels commonly affected:
 - **Visual:** Bright lights, busy visual environments, fast movement
 - **Proprioceptive:** Needs more deep pressure input, or conversely, is overwhelmed by light unexpected touch
 
-Some NAS kids are seekers (need more sensory input to feel regulated) and some are avoiders (sensory input destabilizes). Many alternate between both.
+Some POE kids are seekers (need more sensory input to feel regulated) and some are avoiders (sensory input destabilizes). Many alternate between both.
 
 ---
 
@@ -57,7 +57,7 @@ Some NAS kids are seekers (need more sensory input to feel regulated) and some a
 **Build sensory regulation into the day:**
 - Heavy work before demanding environments (carrying groceries, pushing a stroller, wall push-ups — proprioceptive input is regulating)
 - Outdoor time daily — natural environments have lower sensory complexity than built environments
-- Water play — highly regulating for most NAS kids (deep pressure + temperature + controlled sensory input)
+- Water play — highly regulating for most POE kids (deep pressure + temperature + controlled sensory input)
 
 **Reduce baseline sensory load at home:**
 - Remove tags from clothing preemptively

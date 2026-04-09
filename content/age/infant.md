@@ -49,7 +49,7 @@ The good news: the infant brain is maximally plastic. The experiences of this ye
 
 ### Relationship-Building Is Clinical Work
 
-Secure attachment is the most important buffer against the long-term effects of early adversity. For NAS kids specifically, a secure attachment relationship with the primary caregiver predicts better behavioral outcomes at age 3–5.
+Secure attachment is the most important buffer against the long-term effects of early adversity. For POE kids specifically, a secure attachment relationship with the primary caregiver predicts better behavioral outcomes at age 3–5.
 
 This means caregiver sensitivity — responding consistently to the infant's cues — matters more in this year than almost anything else. Responsive caregiving is not spoiling. It is building the relational template that the stress response system will learn to use.
 

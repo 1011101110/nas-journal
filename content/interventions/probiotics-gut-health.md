@@ -20,13 +20,13 @@ priority: "secondary"
 
 The gut contains 100–500 million neurons — more than the spinal cord. The enteric nervous system communicates bidirectionally with the brain via the vagus nerve. This is not metaphor; it's a direct signaling pathway.
 
-For NAS kids, this matters for two reasons:
+For POE kids, this matters for two reasons:
 
-**1. GABA production.** *Lactobacillus rhamnosus* JB-1 produces GABA precursors that travel via the vagus nerve and directly reduce anxiety behavior in animal models (Bravo et al., 2011). GABA is the primary inhibitory neurotransmitter — low GABA activity = higher anxiety, lower stress threshold. NAS kids have disrupted GABA receptor development from prenatal opioid exposure.
+**1. GABA production.** *Lactobacillus rhamnosus* JB-1 produces GABA precursors that travel via the vagus nerve and directly reduce anxiety behavior in animal models (Bravo et al., 2011). GABA is the primary inhibitory neurotransmitter — low GABA activity = higher anxiety, lower stress threshold. POE kids have disrupted GABA receptor development from prenatal opioid exposure.
 
 **2. Inflammation and regulation.** Gut dysbiosis (imbalanced microbiome) increases systemic inflammation. Neuroinflammation specifically correlates with increased irritability, reduced stress tolerance, and disrupted sleep. A healthier microbiome reduces this inflammatory load.
 
-Prenatal opioid exposure, antibiotic treatment during NICU stays, and formula vs. breastfeeding all affect early microbiome development. NAS kids are disproportionately likely to start with suboptimal gut microbiome diversity.
+Prenatal opioid exposure, antibiotic treatment during NICU stays, and formula vs. breastfeeding all affect early microbiome development. POE kids are disproportionately likely to start with suboptimal gut microbiome diversity.
 
 ---
 

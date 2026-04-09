@@ -46,7 +46,7 @@ Going home often happens before the nervous system is fully stable. The NICU env
 
 1. **Recreate NICU calm.** Low light, low sound, consistent temperature, consistent routine.
 2. **White noise.** Constant, low-frequency. Not music.
-3. **Feeding schedule.** Small, frequent feedings. Many NAS infants feed poorly and need smaller volumes more often. Track intake.
+3. **Feeding schedule.** Small, frequent feedings. Many infant with POEs feed poorly and need smaller volumes more often. Track intake.
 4. **Caregiver sleep.** You cannot co-regulate an infant if you're severely sleep-deprived. Tag rotation is medical necessity, not convenience.
 
 **What to expect:**

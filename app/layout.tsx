@@ -3,8 +3,8 @@ import "./globals.css";
 import Navigation from "@/components/Navigation";
 
 export const metadata: Metadata = {
-  title: "A NAS Parent's Journal",
-  description: "An anonymous parent's journal through Neonatal Abstinence Syndrome — organized by age and symptom for parents navigating similar challenges.",
+  title: "A Parent's Journal: Prenatal Opioid Exposure",
+  description: "An anonymous parent's journal navigating prenatal opioid exposure — practical, research-grounded guidance organized by age and symptom.",
 };
 
 export default function RootLayout({
@@ -22,7 +22,7 @@ export default function RootLayout({
         <footer className="border-t border-warm-200 py-8 mt-16">
           <div className="max-w-4xl mx-auto px-4 text-center">
             <p className="text-warm-500 text-sm">
-              Written by an anonymous NAS parent. Not medical advice.{" "}
+              Written by an anonymous parent of a child with prenatal opioid exposure. Not medical advice.{" "}
               <a href="/about" className="text-sage-600 hover:underline">About this journal</a>.
             </p>
           </div>

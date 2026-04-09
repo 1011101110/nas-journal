@@ -18,7 +18,7 @@ priority: "core"
 
 ### The Mechanism
 
-NAS kids cannot self-regulate. This isn't willfulness or immaturity beyond what's expected — it's neurodevelopmental reality. The self-regulation circuitry (prefrontal cortex, vagal tone, HPA axis feedback) is underdeveloped in all young children, and specifically disrupted in NAS kids due to prenatal opioid exposure affecting the developing nervous system.
+POE kids cannot self-regulate. This isn't willfulness or immaturity beyond what's expected — it's neurodevelopmental reality. The self-regulation circuitry (prefrontal cortex, vagal tone, HPA axis feedback) is underdeveloped in all young children, and specifically disrupted in POE kids due to prenatal opioid exposure affecting the developing nervous system.
 
 What they can do: borrow regulation from a regulated caregiver.
 
@@ -96,6 +96,6 @@ This is also why parent self-care is listed here as a clinical strategy, not a l
 
 **Months 2–6:** With consistent co-regulation plus PCIT, most families see real reductions in frequency and duration of dysregulation events.
 
-**What you won't see:** A regulated parent does not prevent all meltdowns. NAS kids have a lower threshold. Your job is not to prevent every activation — it's to not amplify them, and to help the child return to baseline faster.
+**What you won't see:** A regulated parent does not prevent all meltdowns. POE kids have a lower threshold. Your job is not to prevent every activation — it's to not amplify them, and to help the child return to baseline faster.
 
-Parenting an NAS child is genuinely hard. The research confirms that. Taking care of your own nervous system is not selfish — it's the most effective thing you can do for your child.
+Parenting an child with POE is genuinely hard. The research confirms that. Taking care of your own nervous system is not selfish — it's the most effective thing you can do for your child.

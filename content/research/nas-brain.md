@@ -23,7 +23,7 @@ Opioid receptors (mu, kappa, delta) are present in the fetal brain from the firs
 
 **The HPA Axis (stress response system):**
 - The hypothalamic-pituitary-adrenal axis regulates cortisol release in response to stress
-- Prenatal opioid exposure alters HPA axis set-point: NAS kids have elevated baseline cortisol
+- Prenatal opioid exposure alters HPA axis set-point: POE kids have elevated baseline cortisol
 - This means they start each day with a higher stress load and hit their threshold faster
 - HPA dysregulation is the common thread behind tantrums, transition meltdowns, and sensory overload
 
@@ -35,7 +35,7 @@ Opioid receptors (mu, kappa, delta) are present in the fetal brain from the firs
 **Sensory Gating (thalamic function):**
 - The thalamus filters sensory input, deciding what reaches conscious awareness
 - NAS disrupts thalamic development, reducing sensory gating efficiency
-- Result: sensory input that is "background noise" for most people is genuinely experienced differently by NAS kids
+- Result: sensory input that is "background noise" for most people is genuinely experienced differently by POE kids
 
 **GABAergic System:**
 - GABA is the nervous system's primary inhibitory neurotransmitter — the "brake"
@@ -50,7 +50,7 @@ The same plasticity that makes the developing brain vulnerable to prenatal expos
 
 The interventions on this site — PCIT, co-regulation, routine — work in part because they provide repeated experiences that build new neural pathways. The prefrontal cortex-amygdala regulatory connection is strengthened by the experience of being co-regulated. This is neuroplasticity in practice.
 
-The research on NAS outcomes shows substantial heterogeneity: some NAS kids do remarkably well, some struggle significantly. The variables that predict better outcomes are largely environmental: stable caregiver, responsive caregiving, consistent routine, behavioral intervention. These are modifiable.
+The research on NAS outcomes shows substantial heterogeneity: some POE kids do remarkably well, some struggle significantly. The variables that predict better outcomes are largely environmental: stable caregiver, responsive caregiving, consistent routine, behavioral intervention. These are modifiable.
 
 ---
 

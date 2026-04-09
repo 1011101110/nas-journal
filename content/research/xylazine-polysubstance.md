@@ -111,6 +111,20 @@ Practically:
 
 ---
 
+## One Parent's Observation (n=1)
+
+Our son was born in Philadelphia in 2023. His presentation includes a strong sensory **seeking** profile — drawn to lights, noise, physical stimulation, consistently loud — alongside hyper-reactivity features more commonly described in POE literature: extreme crying amplitude, dysregulation at abrupt waking, early physical tightness in the limbs.
+
+The standard POE literature skews toward describing sensory avoidance. Opioid-driven LC hyper-reactivity produces a system that is already flooded — more input is threatening. The classic NAS infant is easily overwhelmed, hypersensitive, hard to console.
+
+Our son's seeking profile fits LC hypo-reactivity better: a system running low, scanning for input to reach adequate arousal. Chronic prenatal alpha-2 agonist exposure suppresses LC firing. A developing LC exposed to chronic suppression may compensate by down-regulating its own sensitivity — requiring more norepinephrine signal to respond. The result postnatally: a system that under-fires and seeks stimulation.
+
+We don't know if xylazine exposure explains his sensory seeking. No research exists to confirm or refute it. We're documenting it here because it is a coherent mechanistic hypothesis, and because other caregivers of children born during this period may recognize the pattern in their own experience. If you do, we'd like to hear from you: nas.journal.contact@gmail.com.
+
+This is one child. One family's observation. Not a population claim.
+
+---
+
 ## What We Still Need
 
 The research community needs:

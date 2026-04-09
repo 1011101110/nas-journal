@@ -9,6 +9,20 @@
 }
 
 @layer components {
+  .prose-sage {
+    @apply prose max-w-none;
+    @apply prose-headings:font-serif prose-headings:text-sage-800;
+    @apply prose-p:text-gray-700 prose-p:leading-relaxed;
+    @apply prose-a:text-sage-600 prose-a:no-underline hover:prose-a:underline;
+    @apply prose-strong:text-gray-800;
+    @apply prose-ul:text-gray-700 prose-ol:text-gray-700;
+    @apply prose-li:my-1;
+    @apply prose-blockquote:border-sage-300 prose-blockquote:text-gray-600;
+    @apply prose-hr:border-gray-200;
+    @apply prose-table:text-sm prose-th:text-gray-700 prose-td:text-gray-600;
+    @apply prose-code:text-sage-700 prose-code:bg-sage-50;
+  }
+
   .prose-journal {
     @apply prose prose-lg max-w-none;
     @apply prose-headings:font-serif prose-headings:text-sage-800;

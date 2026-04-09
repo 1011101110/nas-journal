@@ -4,77 +4,168 @@ import matter from 'gray-matter';
 
 const contentDirectory = path.join(process.cwd(), 'content');
 
-export interface ContentItem {
+// ─── Base Types ──────────────────────────────────────────────────────────────
+
+export interface BaseContent {
   slug: string;
   title: string;
-  description: string;
-  stage?: string;
-  ageRange?: string;
-  order?: number;
+  summary?: string;
   content: string;
   [key: string]: unknown;
 }
 
-function getContentFromDir(dir: string): ContentItem[] {
+export interface AgeStage extends BaseContent {
+  ageRange: string;
+  order: number;
+}
+
+export interface SymptomPage extends BaseContent {
+  relatedInterventions: string[];
+  relatedSymptoms: string[];
+  ageRelevance: string[];
+}
+
+export interface InterventionPage extends BaseContent {
+  timeHorizon: string;
+  mechanism: string;
+  crossCuts: string[];
+  priority: string;
+}
+
+export interface ResearchPage extends BaseContent {
+  order?: number;
+}
+
+// ─── Generic Loader ───────────────────────────────────────────────────────────
+
+function loadMarkdown<T extends BaseContent>(filePath: string): T | null {
+  if (!fs.existsSync(filePath)) return null;
+  const fileContents = fs.readFileSync(filePath, 'utf8');
+  const { data, content } = matter(fileContents);
+  const slug = path.basename(filePath, '.md');
+  return { slug, content, ...data } as T;
+}
+
+function loadDirectory<T extends BaseContent>(dir: string): T[] {
   if (!fs.existsSync(dir)) return [];
-  const files = fs.readdirSync(dir).filter(f => f.endsWith('.md'));
-  return files.map(filename => {
-    const slug = filename.replace(/\.md$/, '');
-    const filePath = path.join(dir, filename);
-    const fileContents = fs.readFileSync(filePath, 'utf8');
-    const { data, content } = matter(fileContents);
-    return { slug, content, ...data } as ContentItem;
-  });
+  return fs
+    .readdirSync(dir)
+    .filter((f) => f.endsWith('.md'))
+    .map((filename) => loadMarkdown<T>(path.join(dir, filename))!)
+    .filter(Boolean);
 }
 
-export function getStages(): { id: string; label: string; ageRange: string; order: number }[] {
-  return [
-    { id: 'newborn', label: 'Newborn', ageRange: '0–4 weeks', order: 1 },
-    { id: 'infant', label: 'Infant', ageRange: '1–12 months', order: 2 },
-    { id: 'toddler-early', label: 'Early Toddler', ageRange: '12–18 months', order: 3 },
-    { id: 'toddler-mid', label: 'Mid Toddler', ageRange: '18–24 months', order: 4 },
-    { id: 'toddler-late', label: 'Late Toddler', ageRange: '24–30 months', order: 5 },
-  ];
+// ─── Age Stages ───────────────────────────────────────────────────────────────
+
+export function getAgeStages(): AgeStage[] {
+  return loadDirectory<AgeStage>(path.join(contentDirectory, 'age')).sort(
+    (a, b) => (a.order || 0) - (b.order || 0)
+  );
 }
 
-export function getTopicsByStage(stageId: string): ContentItem[] {
-  const dir = path.join(contentDirectory, 'stages', stageId);
-  return getContentFromDir(dir).sort((a, b) => (a.order || 0) - (b.order || 0));
+export function getAgeStage(slug: string): AgeStage | null {
+  return loadMarkdown<AgeStage>(path.join(contentDirectory, 'age', `${slug}.md`));
 }
 
-export function getTopic(stageId: string, slug: string): ContentItem | null {
-  const dir = path.join(contentDirectory, 'stages', stageId);
-  const filePath = path.join(dir, `${slug}.md`);
-  if (!fs.existsSync(filePath)) return null;
-  const fileContents = fs.readFileSync(filePath, 'utf8');
-  const { data, content } = matter(fileContents);
-  return { slug, content, ...data } as ContentItem;
+export const AGE_STAGE_IDS = ['newborn', 'infant', 'early-toddler', 'toddler', 'older-toddler'];
+
+// ─── Symptoms ─────────────────────────────────────────────────────────────────
+
+export function getSymptoms(): SymptomPage[] {
+  return loadDirectory<SymptomPage>(path.join(contentDirectory, 'symptoms'));
 }
 
-export function getToolkitTopics(): ContentItem[] {
-  const dir = path.join(contentDirectory, 'toolkit');
-  return getContentFromDir(dir).sort((a, b) => (a.order || 0) - (b.order || 0));
+export function getSymptom(slug: string): SymptomPage | null {
+  return loadMarkdown<SymptomPage>(path.join(contentDirectory, 'symptoms', `${slug}.md`));
 }
 
-export function getToolkitTopic(slug: string): ContentItem | null {
-  const dir = path.join(contentDirectory, 'toolkit');
-  const filePath = path.join(dir, `${slug}.md`);
-  if (!fs.existsSync(filePath)) return null;
-  const fileContents = fs.readFileSync(filePath, 'utf8');
-  const { data, content } = matter(fileContents);
-  return { slug, content, ...data } as ContentItem;
+export const SYMPTOM_SLUGS = [
+  'screaming',
+  'sleep',
+  'transitions',
+  'tantrums',
+  'sensory-overload',
+  'feeding',
+  'overstimulation',
+];
+
+// ─── Interventions ────────────────────────────────────────────────────────────
+
+export function getInterventions(): InterventionPage[] {
+  return loadDirectory<InterventionPage>(path.join(contentDirectory, 'interventions'));
 }
 
-export function getResearchTopics(): ContentItem[] {
-  const dir = path.join(contentDirectory, 'research');
-  return getContentFromDir(dir).sort((a, b) => (a.order || 0) - (b.order || 0));
+export function getIntervention(slug: string): InterventionPage | null {
+  return loadMarkdown<InterventionPage>(
+    path.join(contentDirectory, 'interventions', `${slug}.md`)
+  );
 }
 
-export function getResearchTopic(slug: string): ContentItem | null {
-  const dir = path.join(contentDirectory, 'research');
-  const filePath = path.join(dir, `${slug}.md`);
-  if (!fs.existsSync(filePath)) return null;
-  const fileContents = fs.readFileSync(filePath, 'utf8');
-  const { data, content } = matter(fileContents);
-  return { slug, content, ...data } as ContentItem;
+export const INTERVENTION_SLUGS = [
+  'pcit',
+  'co-regulation',
+  'routines-predictability',
+  'screen-time-reduction',
+  'probiotics-gut-health',
+  'omega-3s',
+];
+
+// ─── Not Pursuing ─────────────────────────────────────────────────────────────
+
+export function getNotPursuing(): BaseContent | null {
+  return loadMarkdown<BaseContent>(path.join(contentDirectory, 'not-pursuing.md'));
+}
+
+// ─── Research ─────────────────────────────────────────────────────────────────
+
+export function getResearchTopics(): ResearchPage[] {
+  return loadDirectory<ResearchPage>(path.join(contentDirectory, 'research')).sort(
+    (a, b) => (a.order || 0) - (b.order || 0)
+  );
+}
+
+export function getResearchTopic(slug: string): ResearchPage | null {
+  return loadMarkdown<ResearchPage>(path.join(contentDirectory, 'research', `${slug}.md`));
+}
+
+export const RESEARCH_SLUGS = [
+  'nas-brain',
+  'long-term-outcomes',
+  'nature-vs-nurture',
+  'epigenetics',
+];
+
+// ─── About ────────────────────────────────────────────────────────────────────
+
+export function getAbout(): BaseContent | null {
+  return loadMarkdown<BaseContent>(path.join(contentDirectory, 'about.md'));
+}
+
+// ─── Markdown Renderer ────────────────────────────────────────────────────────
+
+import { remark } from 'remark';
+import remarkHtml from 'remark-html';
+
+export async function markdownToHtml(markdown: string): Promise<string> {
+  const result = await remark().use(remarkHtml, { sanitize: false }).process(markdown);
+  return result.toString();
+}
+
+// ─── Legacy shims (for any old routes still in flight) ────────────────────────
+
+export function getStages() {
+  return getAgeStages().map((s) => ({
+    id: s.slug,
+    label: s.title,
+    ageRange: s.ageRange,
+    order: s.order,
+  }));
+}
+
+export function getToolkitTopics() {
+  return getSymptoms();
+}
+
+export function getToolkitTopic(slug: string) {
+  return getSymptom(slug);
 }

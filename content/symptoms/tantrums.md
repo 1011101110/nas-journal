@@ -17,15 +17,24 @@ ageRelevance: ["early-toddler", "toddler", "older-toddler"]
 
 All toddlers tantrum. POE kids tantrum more frequently, more intensely, and for longer.
 
-The reason is structural. Prenatal opioid exposure disrupts the developing HPA axis — the stress response circuit that includes the amygdala (threat detection), prefrontal cortex (regulation, reasoning), and hypothalamus (cortisol release). POE kids emerge with:
+The reason is structural.
 
-- Lower threshold for stress activation
-- Slower return to baseline after activation
-- Reduced prefrontal cortex oversight during arousal (reasoning is offline faster, for longer)
+**Amygdala hyperreactivity.** The amygdala is the brain's threat-detection hub — it evaluates incoming stimuli for danger and initiates the stress response. In POE kids, the amygdala is hyperreactive: it fires in response to lower-intensity triggers and produces stronger activation signals. This hyperreactivity has been documented in neuroimaging studies of children with early adversity and prenatal drug exposure, where functional MRI shows exaggerated amygdala activation to mildly threatening stimuli.
 
-When a NAS toddler hits their limit, the prefrontal cortex is genuinely offline. There's no reasoning, bargaining, or consequence-explaining that's going to work during active meltdown. The child isn't choosing not to listen — the brain structure that enables listening is not engaged.
+The mechanism: prenatal opioid exposure alters the development of the amygdala's GABAergic interneurons — the inhibitory cells that normally modulate amygdala output. With reduced GABAergic tone, the amygdala fires more easily and more intensely. Small stressors that would be subthreshold for a neurotypical child cross the threshold.
 
-Elevated baseline cortisol means they hit the limit faster than other kids, and from a higher starting point. Small stressors that would be insignificant for a neurotypical child can be the tipping point.
+**Prefrontal cortex-amygdala connectivity.** The prefrontal cortex (PFC) — specifically the ventromedial PFC — exerts top-down inhibitory control over the amygdala. This PFC-amygdala connection is the neurological basis for emotional regulation: the PFC receives the amygdala's alarm signal and modulates it based on context ("this is not actually a threat"). In POE kids, this circuit is underdeveloped in two ways:
+
+1. The PFC itself has reduced connectivity in POE populations — DTI studies show altered white matter tracts in the PFC-amygdala circuit
+2. Once the amygdala fires above a certain intensity, the PFC is overwhelmed and goes offline. That threshold is lower in POE kids.
+
+When a NAS toddler hits their limit, the prefrontal cortex is genuinely offline — not metaphorically, but neurologically. There is no reasoning, bargaining, or consequence-explaining that's going to work during active meltdown. The child isn't choosing not to listen — the brain structure that enables listening is not engaged.
+
+**The window of tolerance.** Daniel Siegel's model of the "window of tolerance" describes the zone of arousal within which a person can engage the prefrontal cortex effectively. Above the window (hyperarousal) the system is flooded and the PFC goes offline. Below the window (hypoarousal) the system shuts down. The therapeutic goal is to expand this window.
+
+POE kids have a narrower window than neurotypical children. Their baseline arousal is higher (elevated cortisol), their HPA axis fires faster, and their PFC-amygdala circuit has less buffering capacity. They enter the hyperarousal zone from a smaller stressor and take longer to return to the window.
+
+This is not a behavioral difference from neurotypical tantrums — it is a neurological difference. The intensity, duration, and recovery time of NAS tantrums reflect the structural constraints of these circuits, not the severity of the precipitating event.
 
 ---
 

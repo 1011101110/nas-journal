@@ -15,17 +15,21 @@ ageRelevance: ["newborn", "infant", "early-toddler", "toddler"]
 
 ### Why This Happens in NAS Kids
 
-Feeding difficulties in NAS have multiple overlapping causes:
+Feeding difficulties in NAS have multiple overlapping causes rooted in specific neurological systems.
 
-**Oral-motor disorganization (infancy):** infant with POEs often have uncoordinated suck-swallow-breathe patterns. Coordinated feeding requires rhythmic, organized motor output from the brainstem. NAS disrupts this. NICU feeding is often slow, difficult, and requires specialized nipples or thickening agents.
+**The trigeminal system and oral hypersensitivity.** The trigeminal nerve (cranial nerve V) is the primary sensory nerve for the face and oral cavity — it transmits touch, temperature, texture, and pain information from the lips, tongue, palate, and teeth. Trigeminal sensory nuclei in the brainstem express opioid receptors during fetal development. Prenatal opioid exposure alters the developmental calibration of trigeminal sensory pathways, producing oral hypersensitivity: the defensive response to intraoral sensory input.
 
-**Oral hypersensitivity:** The same sensory processing differences that create tactile sensitivity extend to the oral cavity. Certain textures, temperatures, and food properties trigger a defensive response. This is not pickiness — it's a sensory protection reflex.
+This is not pickiness and not behavioral. Oral hypersensitivity is a sensory protection reflex driven by a trigeminal system that interprets certain oral inputs (food textures, temperatures, utensil contact) as aversive. The gagging response to texture is neurologically compelled — the child cannot "just try it" through willpower when the trigeminal system is generating an aversive signal.
 
-**Disrupted hunger-satiety signaling:** Prenatal opioid exposure affects the gut-brain axis, including hormonal hunger and satiety signals. Some POE kids genuinely have difficulty reading their hunger state accurately.
+**Suck-swallow-breathe discoordination.** Coordinated infant feeding requires synchronization of three motor systems: the suck reflex (facial and oral motor neurons), the swallow reflex (pharyngeal motor neurons), and respiration (brainstem respiratory control). NAS disrupts this coordination through generalized brainstem hyperexcitability during withdrawal. The same LC-norepinephrine hyperarousal that produces the NAS cry also disrupts the rhythmic, organized output from brainstem motor nuclei required for smooth suck-swallow-breathe patterns. The result: disorganized feeding, frequent pauses, choking, poor latch, poor seal, and slow volume consumption — the clinical presentation that requires NICU-level feeding intervention.
 
-**Mealtime anxiety accumulation:** After difficult early feeding experiences, mealtimes develop negative associations. Anxiety spikes cortisol before the fork even arrives. An anxious, activated child eating is harder in every way.
+These early disorganized feeding experiences are not without psychological consequence. Repeated aversive oral experiences during a critical period of early sensory development lay down negative sensory associations that persist as the child develops.
 
-**GI motility issues:** Some POE kids have ongoing GI motility differences — constipation, reflux, irregular bowel patterns — that make eating physically uncomfortable. This is underrecognized.
+**As the child develops: texture aversion and sensory processing.** Beyond the specific suck-swallow mechanism, sensory processing deficits (thalamic gating, P50 suppression) apply directly to oral sensory processing. Food textures, temperatures, and consistency changes all produce sensory input that is filtered less effectively. Mixed textures (casserole, stew, things touching) are particularly aversive because each component presents different sensory inputs simultaneously, overwhelming the sensory processing capacity.
+
+**Feeding as co-regulation.** The mealtime relationship is not incidental to feeding success — it is mechanistically central. Research by Satter (Division of Responsibility model), Boshart, and others establishes that feeding behavior in young children is profoundly affected by the emotional tone of the mealtime interaction. A parent who is anxious about intake transmits that anxiety through the same co-regulation pathway described elsewhere: the child's neuroception system reads the caregiver's stress cues (tense voice, focused attention on the child's plate) and interprets them as threat. Cortisol rises. A high-cortisol state is neurologically incompatible with relaxed, exploratory eating.
+
+For POE kids whose amygdala threat detection is already hyperreactive and whose vagal tone is chronically lower, the mealtime anxiety cycle is particularly entrenched. The intervention is not a feeding technique — it is a nervous system intervention: reducing the parent's visible anxiety about intake is often the highest-leverage mealtime change possible.
 
 ---
 

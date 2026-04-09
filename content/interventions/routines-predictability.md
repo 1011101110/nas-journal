@@ -24,9 +24,19 @@ POE kids have elevated baseline cortisol. Their HPA axis (the stress response sy
 2. They recover from activation more slowly
 3. Unpredictability — not knowing what comes next — is itself a cortisol trigger
 
+**Why unpredictability specifically activates the HPA axis.** The brain's threat-detection system (amygdala-prefrontal circuit) runs continuous prediction. When the current state matches predictions, the system is quiet. When it can't predict — when the next event is uncertain — it defaults to vigilance and cortisol release. This is the evolutionary function of anxiety: prepare for the unknown.
+
+For POE kids, whose threat-detection baseline is already elevated, this uncertainty cost is higher than for neurotypical children. Every unpredicted transition, every "surprise," every schedule change is a cortisol event. These accumulate. A morning with three unplanned transitions can have the same total cortisol load as a moderate stressor for a neurotypical adult.
+
 Predictable routines work by removing the cognitive and emotional labor of figuring out what comes next. When the sequence is the same every day, the nervous system stops scanning for threat at each transition. Cortisol baseline drops. The child has more capacity before hitting threshold.
 
-This is different from "giving children structure because it's good for them." The mechanism is neurobiological. Predictability is literally calming to an overactive stress response system.
+**The executive function connection.** Beyond the immediate cortisol cost, unpredictability specifically taxes the prefrontal cortex functions that POE kids have the least of: working memory (holding "what comes next" in mind), cognitive flexibility (adjusting to changed plans), and inhibitory control (stopping a preferred activity to comply with a transition). Predictable routines reduce the working memory demand — the sequence is external, stored in the routine itself rather than in the child's prefrontal cortex.
+
+Research on executive function development by Zelazo and colleagues (2016, *Monographs of the Society for Research in Child Development*) found that external structure significantly compensates for working memory and inhibition deficits in early childhood — the brain uses the environment as prosthetic executive function. Routine is that prosthetic.
+
+**POE kids and transitions specifically.** A 2020 study of preschool-age children with prenatal drug exposure by Wobie et al. found significantly elevated rates of transition difficulty compared to matched controls — beyond what would be predicted by developmental level alone. The authors linked this to disrupted dopamine-mediated anticipatory signaling. When the dopamine system doesn't generate normal anticipatory reward for upcoming events, transitions lack the motivational pull that helps neurotypical children move through them. Structure compensates by making the transition sequence itself predictable and therefore low-threat.
+
+**Routine vs. rigidity.** Important distinction: structured routine that serves the child's regulation is different from rigidity that serves anxiety. Helpful routine is a scaffold. The child knows what comes next; variations are tolerated within the larger known structure. Problematic rigidity is when any deviation, however minor, produces catastrophic distress — and the family's life reorganizes around preventing that distress. The target is the scaffold, not the prison. The distinction has clinical implications: OCD-spectrum presentations can masquerade as preference for routine; if your child's distress at routine violations seems disproportionate and expanding, that's worth flagging to a developmental pediatrician.
 
 ---
 
@@ -49,7 +59,7 @@ This is different from "giving children structure because it's good for them." T
 - Consistent mealtimes
 - Consistent bedtime sequence
 
-These matter more than everything else. The brain's circadian rhythm and cortisol patterns organize around them.
+These matter more than everything else. The brain's circadian rhythm and cortisol patterns organize around them. The morning cortisol awakening response (CAR) — a natural cortisol spike in the first 20–30 minutes after waking — is dysregulated in POE kids. A consistent wake time helps regulate this spike and prevents it from cascading into morning behavioral difficulty.
 
 **Build transition cues into every sequence:**
 - Visual timer for transitions (kids who can't tell time can read a timer)

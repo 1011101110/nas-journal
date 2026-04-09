@@ -15,16 +15,17 @@ ageRelevance: ["newborn", "infant", "early-toddler", "toddler"]
 
 ### Why This Happens in NAS Kids
 
-The high-pitched, continuous cry of NAS is documented from the first days of life. It's distinct from typical infant crying — higher frequency, more persistent, less responsive to normal soothing.
+The high-pitched, continuous cry of NAS is documented from the first days of life. It's distinct from typical infant crying in measurable, acoustic ways — higher fundamental frequency (pitch), longer cry duration, reduced cry variability, and less responsiveness to standard soothing interventions. These differences are not subjective parental perception; spectral analysis of NAS infant cries shows acoustic features that correlate with CNS arousal level.
 
-The mechanism is direct: prenatal opioid exposure disrupts the developing autonomic nervous system, including the vagal tone that governs the transition between stress activation and calm. infant with POEs have:
+**The locus coeruleus-norepinephrine mechanism.** The primary driver of NAS screaming is locus coeruleus (LC) hyper-activation during withdrawal. The LC — the brain's primary norepinephrine nucleus — is profoundly suppressed by opioids during prenatal exposure (opioids bind mu-receptors on LC neurons, inhibiting firing). When opioids are withdrawn at birth, LC neurons rebound with dramatically increased firing rates. This norepinephrine surge produces the characteristic NAS symptoms: hypertonicity, tremors, hyperreflexia, excessive startle, and the high-pitched cry. The cry is a direct acoustic expression of LC-driven CNS hyperarousal.
 
-- Higher baseline arousal (harder to settle into calm)
-- Lower vagal tone (slower parasympathetic recovery after stress)
-- Disrupted GABA signaling (GABA is the nervous system's brake — less GABA = harder to stop)
-- Hypersensitivity to sensory input (light, sound, touch can all trigger screaming)
+**Heightened nociception and pain sensitivity.** NAS infants have elevated pain sensitivity — a direct consequence of opioid withdrawal hyperalgesia. The same LC rebound that drives hyperarousal also lowers the nociceptive threshold via norepinephrine's role in descending pain modulation pathways. Stimuli that would be subthreshold for a typically developing infant — bright light, a diaper change, routine handling — are genuinely aversive in the NAS state. The screaming is not disproportionate to what the infant is experiencing; it's proportionate to a nervous system experiencing sensory input as painful.
 
-In older toddlers, the same mechanism drives screaming in meltdowns — the nervous system has escalated past its threshold and cannot self-regulate back down.
+**Auditory processing and hyperacusis.** Prenatal opioid exposure affects the auditory brainstem — both the cochlear nucleus and the inferior colliculus express opioid receptors during critical developmental windows. Some NAS infants show abnormal auditory brainstem response (ABR) patterns, indicating disrupted auditory processing that can persist beyond the acute withdrawal period. This is one mechanism for the hyperacusis (sound sensitivity) seen in POE kids — sounds that are normal volume are processed as louder or more aversive than they are.
+
+**GABA insufficiency and the can't-turn-it-off problem.** GABA-A receptor development is disrupted by prenatal opioid exposure — specifically the expression of α1 and δ subunits, which determine the speed and efficacy of inhibitory signaling. Less effective GABA-mediated inhibition means the stress response, once started, is harder to terminate. The screaming persists longer than it would in a neurotypical infant because the inhibitory mechanism that would normally damp the response is insufficient.
+
+In older toddlers, the same mechanism drives screaming in meltdowns — the nervous system has escalated past its threshold and cannot self-regulate back down. The quality of the sound is different (less LC-driven, more HPA-driven), but the underlying insufficiency of the inhibitory termination mechanism is the same.
 
 ---
 

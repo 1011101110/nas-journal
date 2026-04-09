@@ -24,14 +24,23 @@ Children with prenatal opioid exposure have stress response systems shaped by a 
 
 Theraplay works on exactly this substrate.
 
-Four dimensions organize all Theraplay activities:
+**The four dimensions.** All Theraplay activities are organized around four dimensions, each targeting a distinct neurological system:
 
-- **Structure** — the therapist (and caregiver) provide clear, safe structure, reducing the child's need to control the environment to feel safe
-- **Engagement** — joyful, direct interaction that builds connection and the expectation of positive relational experience
-- **Nurture** — physical care, soothing, and attunement that build the child's experience of being cared for
-- **Challenge** — age-appropriate activities that build competence and trust within the relationship
+**Structure** addresses the regulatory system. Theraplay activities include a consistent beginning (check-in), middle, and end (lotion ritual, goodbye song) in every session. The session itself is a predictable sequence. For a child whose nervous system is tuned to detect unpredictability as threat, the structure of the session is itself therapeutic — it is a safe container before any specific activity begins. Structure also supports the dorsal prefrontal cortex functions of sequencing and planning: when the structure comes from outside (the therapist), the child's system can relax internal executive function demands.
 
-For a POE child — whose nervous system learned to expect unpredictability, whose early relational experiences may have included disruption, who may not have built a secure attachment template — these four dimensions address the actual gaps.
+**Engagement** targets the social engagement system (Porges' ventral vagal complex). Theraplay activities involve direct, joyful eye contact, physical proximity, shared surprise, and mutual delight. Each is a specific activator of the social engagement pathway. For a child whose early relational experiences may have involved misattunement, unpredictability, or absence, repeated engagement through the social engagement system begins building a new internal working model: *relationships can be joyful and safe*.
+
+Neurobiologically, positive social engagement activates the meso-limbic dopamine system in a qualitatively different way from screens or food rewards — it activates it through relationship, which is the system the prefrontal cortex-limbic regulation circuitry is designed to work through. This builds the specific regulatory pathways that are deficit in POE kids.
+
+**Nurture** targets the attachment system and interoceptive processing. Activities involve physical care — applying lotion, feeding snacks by hand, counting fingers and toes, gentle touch. For a child who experienced early touch in aversive medical contexts (NICU procedures), or whose early care involved inconsistency, nurturing touch within a predictable, gentle, caregiver-led sequence is corrective. The polyvagal system reads these cues: warm, calm, predictable touch from a regulated adult = safety signal.
+
+Attuned touch, rhythm, and play are not incidental — they are the direct delivery mechanism for the neurobiological experience of safety. Oxytocin release from warm touch suppresses the amygdala threat response. Rhythmic movement (rocking, swinging activities in Theraplay) entrains the vestibular-proprioceptive system to a regulated state.
+
+**Challenge** targets the competence and mastery systems. Carefully calibrated age-appropriate challenges — slightly difficult but achievable with support — activate the reward circuit when the child succeeds, within the safety of the relational context. This builds the experience of mastery through relationship: the caregiver provides scaffolding, the child succeeds, both celebrate. Over repetitions, this builds resilience and the expectation that trying hard things is safe.
+
+**The research base.** The Theraplay Institute's outcome database includes data from hundreds of clinical implementations. Franke et al. (2013) found Theraplay significantly reduced internalizing and externalizing behavior problems in at-risk preschoolers. A 2010 study by Siu found Theraplay effective for children with attachment difficulties in institutional settings. The strongest evidence is for children with attachment disorders and early relational trauma — the precise profile many POE kids present with.
+
+**How Theraplay compares to Dyadic Developmental Psychotherapy (DDP).** DDP (developed by Daniel Hughes) is another attachment-focused therapy that targets felt safety and relational healing through PACE (Playfulness, Acceptance, Curiosity, Empathy). Both Theraplay and DDP work on the relational substrate rather than behaviors. The primary distinction: Theraplay is primarily non-verbal and play-based, making it more developmentally accessible for toddlers and young children who lack the language capacity for DDP's more conversational elements. DDP may become more relevant as the child develops language and narrative capacity in preschool and school years.
 
 ---
 

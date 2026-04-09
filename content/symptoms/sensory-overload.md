@@ -17,17 +17,21 @@ ageRelevance: ["newborn", "infant", "early-toddler", "toddler", "older-toddler"]
 
 Sensory processing involves two functions the brain performs simultaneously: amplifying important signals and suppressing irrelevant ones. The second function — sensory gating, or suppression — is where POE kids have a deficit.
 
-Prenatal opioid exposure disrupts development of the thalamus and sensory cortices, which are responsible for filtering sensory input. The result: sensory information that the brain should be filtering as background noise isn't filtered. Everything comes through louder.
+**Sensory gating and the P50 suppression mechanism.** Sensory gating is measured clinically via the P50 paradigm: two identical auditory stimuli are presented in rapid succession. In healthy individuals, the brain response (P50 wave on EEG) to the second stimulus is substantially suppressed compared to the first — the brain "gates" it out as redundant. In populations with sensory gating deficits (well-documented in schizophrenia, autism, ADHD, and early adversity), this suppression is reduced or absent. Both stimuli produce nearly equal responses — the brain cannot filter out the predictable repetitive signal.
 
-This is not sensitivity in a colloquial sense. It's a structural processing difference. The grocery store isn't slightly more stimulating for these kids — it's genuinely overwhelming in a way that's hard to understand without experiencing it.
+The mechanism: P50 suppression is mediated by hippocampal-thalamo-cortical circuitry, with cholinergic and GABAergic interneurons as key controllers of the gating function. The same GABAergic interneuron disruption produced by prenatal opioid exposure also impairs P50 suppression. The result is a nervous system that cannot filter its own sensory input effectively — background noise is not suppressed, it keeps arriving with the same amplitude as novel stimuli.
 
-Specific sensory channels commonly affected:
-- **Auditory:** Background noise, crowded environments, sudden loud sounds
-- **Tactile:** Certain textures, clothing tags, unexpected touch
-- **Visual:** Bright lights, busy visual environments, fast movement
-- **Proprioceptive:** Needs more deep pressure input, or conversely, is overwhelmed by light unexpected touch
+**Thalamic filtering function.** The thalamus is the brain's central sensory relay — all sensory information (except smell) passes through the thalamus before reaching the cortex. The thalamus performs initial filtering: determining which sensory signals get forwarded to cortical processing. This filtering depends on GABAergic inhibitory neurons in the thalamic reticular nucleus (TRN). Prenatal opioid exposure disrupts TRN GABAergic function. The consequence: sensory information that should be attenuated at the thalamic level reaches the cortex unfiltered. Everything comes through at full volume.
 
-Some POE kids are seekers (need more sensory input to feel regulated) and some are avoiders (sensory input destabilizes). Many alternate between both.
+DTI (diffusion tensor imaging) studies of POE infants have found altered white matter microstructure in thalamo-cortical tracts (Walhovd et al., 2010; Hu et al., 2020) — structural evidence for disrupted thalamic-cortical sensory relay circuitry.
+
+**Sensory seeking vs. sensory avoidance: two expressions of the same deficit.** These are often presented as opposites — one child covers their ears, another seeks extreme noise. Both are responses to the same underlying sensory gating deficit, just expressed through different autonomic response patterns.
+
+A child in sympathetic arousal (fight-or-flight) who has poor sensory gating may become a seeker: seeking proprioceptive input (crashing, deep pressure) because heavy proprioceptive input is processed differently (via the vestibular system, which has different regulatory properties) and provides genuine regulation. A child in dorsal vagal shutdown (freeze response) with poor sensory gating may become an avoider: retreating from all input because the system is overloaded and any additional input is aversive.
+
+The practical implication: sensory-seeking and sensory-avoiding are not character differences. They are autonomic state differences. The same child can present as both on different days depending on their autonomic state.
+
+**Interoception deficits.** Interoception — the perception of internal body states (hunger, thirst, pain, temperature, fatigue, heartbeat) — is mediated by pathways overlapping with sensory gating. POE kids frequently show interoceptive deficits: difficulty accurately sensing hunger, pain, or fatigue. This has downstream effects: a child who can't accurately read their own fatigue signal doesn't know they're overtired until they collapse; a child who can't read hunger accurately may not signal hunger until blood sugar has dropped enough to produce behavioral dysregulation. These are not behavioral failures; they are interoceptive processing deficits with direct behavioral consequences.
 
 ---
 

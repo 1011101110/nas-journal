@@ -24,6 +24,24 @@ A child born with NAS often enters a postnatal environment with multiple additio
 
 ---
 
+### What the Genetics Research Shows
+
+**Heritability of addiction: 40–60%.** Twin studies and adoption studies consistently find that 40–60% of the variance in addiction risk is attributable to genetic factors. This figure comes from meta-analyses of multiple twin study designs (Tsuang et al., 2001; Kendler et al., 2012). It means genetic background matters substantially — but also that 40–60% of the variance is not genetic.
+
+**Specific gene variants relevant to POE kids.** Several candidate genes are under active research:
+
+- **OPRM1 (mu-opioid receptor gene):** The A118G variant (rs1799971) alters mu-opioid receptor expression and affects sensitivity to opioid reward and stress. Children carrying the G allele show different stress reactivity profiles. This is the receptor their prenatal environment was saturating.
+- **DRD2 (dopamine D2 receptor gene):** The TaqIA variant is associated with reduced D2 receptor density in the striatum, lower dopamine tone, and increased risk for substance use disorders and impulsivity. Already relevant to a child with dopamine system disruption from prenatal exposure.
+- **COMT (catechol-O-methyltransferase):** The Val158Met polymorphism affects dopamine clearance in the prefrontal cortex. The Met/Met genotype produces slower COMT activity, higher prefrontal dopamine, better cognitive function — but also higher stress sensitivity. The Val/Val genotype produces faster dopamine clearance, lower prefrontal dopamine, and worse executive function under stress.
+
+**The critical point for parents:** These variants are probabilistic risk factors, not destiny. The A118G variant in OPRM1 increases vulnerability; it does not determine outcome. Gene-environment interaction research consistently shows that genetic risk factors for addiction primarily activate in adversarial environments and are substantially buffered by stable, nurturing ones.
+
+**The Bohman and Sigvardsson adoption studies (Sweden, 1981).** The landmark Swedish adoption studies — following over 2,000 adoptees from biological parents with alcohol use disorder — found that children adopted into stable, non-drinking families showed dramatically reduced rates of alcoholism compared to those adopted into families with alcohol misuse, despite identical genetic risk. Genetic predisposition interacted multiplicatively with environmental quality. This is the clearest human demonstration that genetic addiction risk requires an adverse environment to fully express.
+
+**Norwegian longitudinal cohort data.** The Norwegian Mother, Father and Child Cohort Study (MoBa) has followed children with prenatal drug exposure longitudinally. Findings consistently show that children with high genetic risk who are raised in high-quality caregiving environments have outcomes that are indistinguishable from children with low genetic risk — the protective environment fully compensates. The gene-environment interaction is not additive; it is interactive. Good environment doesn't partially offset bad genes. It nearly eliminates the expression of the genetic risk.
+
+---
+
 ### What the Adoption/Foster Studies Show
 
 Studies of POE kids placed in stable, low-stress foster or adoptive homes from early infancy provide the clearest separation of prenatal and postnatal effects.
@@ -44,6 +62,19 @@ Epigenetics — changes in gene expression that don't involve changes to the DNA
 Critically: some of these epigenetic changes are themselves responsive to postnatal environment. Stable, nurturing caregiving has been shown to reverse some adverse epigenetic marks in animal models and in early human research.
 
 See also: [Epigenetics & NAS](/research/epigenetics)
+
+---
+
+### What the Science Says About Your Child's Actual Risk
+
+For parents who are asking the harder question — what does this mean for my child's risk of developing addiction themselves:
+
+- **Heritability is real but not determinative.** A child with a biological parent with OUD has elevated genetic risk. That risk is 40–60% heritable — not 100%.
+- **The strongest protective factors are environmental:** stable attachment to a responsive caregiver, socioeconomic stability, consistent and structured household, early behavioral intervention, school success (particularly in early elementary, which builds protective social competence).
+- **The risk period is not childhood.** Genetic addiction vulnerability primarily expresses during adolescence and early adulthood in the context of substance access and peer pressure. The protective environment you build now directly shapes how equipped your child is to navigate those years.
+- **Prenatal opioid exposure specifically may reduce the rewarding properties of opioids** in some models (cross-tolerance effect from prenatal mu-receptor saturation), or may increase sensitization in others. The research is inconsistent. Assuming increased vulnerability is the more conservative and safety-appropriate posture.
+
+The practical takeaway: you cannot change your child's genome. You can substantially modify how that genome expresses itself. That is the project.
 
 ---
 

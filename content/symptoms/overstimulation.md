@@ -17,13 +17,25 @@ ageRelevance: ["infant", "early-toddler", "toddler", "older-toddler"]
 
 Overstimulation is distinct from sensory overload — though they overlap. Sensory overload is an acute response to a specific sensory environment. Overstimulation is cumulative: the nervous system's stress load has been building all day, and a trigger that would otherwise be minor pushes it over threshold.
 
-POE kids have two structural problems that make overstimulation more likely:
+**Sensory habituation deficits.** Habituation — the nervous system's ability to progressively reduce its response to a repeated, non-threatening stimulus — is one of the most basic forms of sensory adaptation. When you first enter a loud restaurant, the noise is salient. After 20 minutes, you habituate and can hold a conversation. This habituation requires the same thalamic gating and GABAergic inhibitory mechanisms that are disrupted in POE kids.
 
-**1. Lower capacity.** The HPA axis in POE kids runs hotter — elevated baseline cortisol, lower threshold for activation, slower recovery. Their capacity "bucket" is smaller and empties faster.
+POE kids habituate more slowly and less completely to sensory environments. The grocery store doesn't become background noise over a 30-minute visit the way it would for a neurotypical child. The sensory load of that environment continues to be processed at near-full amplitude throughout the visit. By the end of the shopping trip, the POE child's cumulative sensory burden is substantially greater than what a neurotypical child has accumulated — not because more happened, but because less was filtered.
 
-**2. Slower recovery.** Between stressors, neurotypical kids' nervous systems recover relatively quickly. POE kids' recovery is slower. Each new stressor that arrives before full recovery from the last one accumulates. By late afternoon, the bucket is nearly full, and it takes almost nothing to tip it.
+**The orienting response and competing stimuli.** The orienting response is the automatic attentional shift toward novel or unexpected stimuli — the "what was that?" reflex. It is mediated by the same thalamo-cortical circuits involved in sensory gating. When sensory gating is impaired, the orienting response triggers more frequently — every ambient noise, every movement at the edge of vision, every new sensation is processed as potentially relevant and generates a brief attentional reorientation. In a busy environment, these orienting responses fire continuously.
 
-This is why the late afternoon / early evening is consistently the worst window for POE kids. It's not random. It's accumulated load from the day.
+Each orienting response costs a small amount of prefrontal cortex attentional resources and generates a small stress response. For a nervous system with limited prefrontal buffering capacity and an already-elevated cortisol baseline, continuous orienting responses accumulate into a significant depletion of regulatory capacity over the course of a day.
+
+**Cortisol accumulation across the day.** Cortisol is not a binary on/off signal. Each stress event adds a cortisol pulse to the bloodstream. Cortisol has a half-life of approximately 60–90 minutes — if stressors arrive faster than cortisol clears, levels accumulate. POE kids start the day with higher baseline cortisol and have a lower activation threshold, meaning they pulse cortisol more frequently throughout the day. By late afternoon, cumulative cortisol load is substantially higher than in a neurotypical child who experienced the same objective day.
+
+This is why late afternoon is consistently the worst window. It is not random, and it is not a reflection of the afternoon's events specifically. It is the physiological consequence of a day of cortisol accumulation in a system with insufficient clearance and excessive production.
+
+**The shutdown response vs. the meltdown response.** Both are dysregulation, but they represent different nervous system states:
+
+**Meltdown** (hyperarousal/sympathetic) — the child explodes: screaming, physical aggression, inability to respond to direction, visible emotional flood. The prefrontal cortex is offline due to amygdala overwhelm. This is the more visible presentation.
+
+**Shutdown** (hypoarousal/dorsal vagal) — the child goes quiet, glazed, unresponsive, may seem compliant but is actually dissociated. This is the dorsal vagal collapse response: when the threat is too great for fight-or-flight to manage, the ancient dorsal vagal system produces immobility and dissociation. Parents sometimes read shutdown as "finally calm" — it is not calm, it is a different kind of dysregulation. A child in shutdown needs the same low-stimulation, patient, regulated co-presence as a child in meltdown.
+
+Both responses can occur in the same child on different days, or even as sequential phases of the same event. The progression from meltdown to shutdown (or vice versa) reflects the child's autonomic state cycling as the regulatory system is overwhelmed.
 
 ---
 

@@ -22,9 +22,21 @@ POE kids have stress response systems wired differently from birth. The HPA axis
 
 PCIT works by leveraging the most powerful regulator available to a child: the parent.
 
-In CDI (Child-Directed Interaction), parents practice following the child's lead with specific positive attention skills — describing, reflecting, imitating, enthusiastic praise. This isn't praise for its own sake. Each interaction builds a relational template: *the world is predictable, my caregiver responds to me, I can trust this.* Over hundreds of repetitions, this rewires the child's default stress response baseline downward.
+**The CDI phase** (Child-Directed Interaction) is where neurobiological change begins. Parents practice the PRIDE skills — **P**raise, **R**eflect, **I**mitate, **D**escribe, **E**njoy — while following the child's lead completely. Each PRIDE skill has a specific function:
 
-In PDI (Parent-Directed Interaction), parents practice clear, calm commands with consistent consequences. Predictability of consequence is itself regulating — the child learns the rules of the environment and can predict outcomes. For a NAS kid whose nervous system is hypervigilant to unpredictability, this is therapeutic.
+- **Labeled Praise** ("I love how gently you're stacking those blocks") activates the dopaminergic reward circuit without triggering the evaluative threat response. The specificity matters.
+- **Reflect** (repeating the child's words verbatim) sends a signal: *you were heard, you matter*. This builds the internal template for felt safety.
+- **Imitate** (copying the child's play) communicates attunement at a level below language — the same channel mirror neuron systems use.
+- **Describe** (narrating what the child does without evaluating) keeps the child regulated by making the caregiver's attention predictable and non-threatening.
+- **Enjoy** (enthusiasm) activates the social engagement system through prosodic voice and animated facial expression.
+
+What this does neurologically: repeated CDI experiences train the HPA axis. Each successful co-regulation event is a data point to the child's threat assessment system — *this caregiver is safe, I can borrow their calm*. Over hundreds of repetitions, the default stress response baseline shifts downward. Cortisol reactivity to mild stressors decreases.
+
+A 2014 meta-analysis by Thomas and Zimmer-Gembeck ([Clin Child Fam Psychol Rev, 2012](https://pubmed.ncbi.nlm.nih.gov/22048999/)) found PCIT produced large effect sizes (Cohen's d = 0.87–1.0) for externalizing behavioral problems across RCTs. A subsequent review by Galanter et al. found PRIDE skills specifically improved maternal sensitivity ratings — a proxy for the attunement mechanism — within the CDI phase.
+
+**The PDI phase** (Parent-Directed Interaction) works through a different mechanism. Clear, direct commands followed by consistent consequences are themselves regulating. The child learns: *actions have predictable results here*. For a nervous system that evolved hypervigilance to unpredictability, this is therapeutic. When consequences are consistent, there is nothing to brace for — and bracing is metabolically expensive.
+
+**Why PCIT differs for POE kids specifically:** Research on general behavioral disorders shows CDI effect sizes of 0.6–0.9. There is reason to believe the same mechanism is more powerful in POE kids because the relational dysregulation is more foundational — not a secondary behavioral problem but the primary neurodevelopmental deficit. The relationship is the substrate being treated.
 
 ---
 
@@ -87,3 +99,5 @@ If you can only do one structured intervention, this is it.
 **What you won't see:** Immediate results. A complete elimination of meltdowns. PCIT reduces frequency and severity — it doesn't eliminate the underlying neurodevelopmental difference.
 
 Families typically see meaningful behavioral improvement by month 3. Full graduation takes 14–20 sessions on average, with POE kids often on the longer end.
+
+The Thomas & Zimmer-Gembeck meta-analysis of 13 RCTs found that PCIT produced sustained gains at follow-up (6–12 months post-treatment), not just immediate improvements — which matters for a population where long-term neural remodeling is the actual goal.

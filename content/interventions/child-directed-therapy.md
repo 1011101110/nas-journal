@@ -22,11 +22,32 @@ status: "in-progress"
 
 Children with prenatal opioid exposure often experience a world that acts on them rather than responding to them. From the NICU onward, their environment has been characterized by external regulation — procedures, schedules, interventions, adults making decisions about their bodies and experiences. This is unavoidable and largely necessary. But it leaves a deficit.
 
-A child who doesn't experience themselves as the cause of what happens — who doesn't develop internal locus of control — will struggle to self-regulate. Self-regulation requires the internal belief that your actions matter, that you can influence your environment, that you have agency. When that belief hasn't been built, external dysregulators (transitions, surprises, frustration) overwhelm the system because there's no internal anchor.
+**The theoretical roots.** Child-Directed Therapy (CDT) draws directly from two lineages:
 
-CDT builds that anchor.
+First, Carl Rogers' person-centered therapy (1951), which established that unconditional positive regard, empathic understanding, and congruence (authenticity) from the therapist create the conditions for self-directed healing. Rogers argued these conditions are not technique — they are the therapy.
 
-By following the child's lead completely — not evaluating, not correcting, not directing — the therapist creates a relational experience that is categorically different from most of what a POE child has encountered. The child discovers: *what I do matters here. This person responds to me. I am the one directing this.* Over repeated sessions, this builds the internal regulatory capacity that external direction cannot.
+Second, Virginia Axline's adaptation of Rogers for children in play therapy (1947, *Play Therapy*). Axline's eight principles operationalize what the person-centered conditions look like with a child who can't yet engage in adult talk-therapy:
+
+1. The therapist develops a warm, friendly relationship with the child
+2. The therapist accepts the child exactly as they are
+3. The therapist establishes permissiveness so the child feels free to express any feeling
+4. The therapist reflects the feelings the child expresses
+5. The therapist maintains a deep respect for the child's ability to solve their own problems
+6. The therapist does not attempt to direct the child's actions or conversation
+7. The therapist does not hurry the process
+8. The therapist establishes only the limitations necessary to anchor the therapy to the real world
+
+For POE kids, principles 3–6 are especially significant. These children often have a history of environments that were not permissive — where their emotional expression was met with escalation, misattunement, or control. CDT creates, possibly for the first time, a space where every expression is accepted, no direction is imposed, and the child discovers that their choices actually produce outcomes.
+
+**The locus of control mechanism.** Self-regulation requires an internal locus of control — the belief that one's own actions have predictable effects on one's environment. Children who experience the world as primarily acting on them (rather than them acting on it) have external locus of control. They do not believe their choices matter. This is not a cognitive belief held in consciousness — it is a deep, somatic expectation baked into the nervous system by repeated experience.
+
+When the external locus of control is dominant, dysregulation events are experienced as things happening to the child with no recourse — which amplifies the threat response. Children who feel agency handle frustration differently because they believe they can affect outcomes. CDT builds internal locus of control through the most direct possible experience: in this room, you are the cause of what happens.
+
+**Research on Child-Centered Play Therapy (CCPT) outcomes.** A 2010 meta-analysis by Ray, Armstrong, Balkin, and Jayne ([J Humanist Couns, 2015](https://pubmed.ncbi.nlm.nih.gov/16285089/)) found CCPT produced significant improvements in self-concept, behavioral adjustment, and anxiety across 73 outcome studies. Effect sizes ranged from 0.34 to 0.80, depending on the outcome and population. Bratton et al. (2005) meta-analysis of 93 controlled studies found an overall effect size of 0.80 for play therapy, with child-centered approaches performing comparably to directive approaches for internalizing problems.
+
+For children with trauma history and early adversity — the relevant comparison for many POE kids — non-directive approaches may outperform directive ones because they avoid re-imposing the experience of external control that contributed to the regulatory deficit. The research on this specific sub-population is limited but directionally consistent.
+
+**Why POE kids specifically benefit from the non-directive structure.** A directive therapy environment tells the child what to do and evaluates their performance. This is cognitively and emotionally taxing for children with executive function deficits (working memory demands to follow directions, inhibitory control to resist preferred choices). CDT removes this demand. The session asks nothing of the child's executive function. This paradoxically produces more regulated behavior in session and, over time, more executive function capacity as the regulatory substrate develops.
 
 ---
 
@@ -49,19 +70,19 @@ These approaches are complementary, not competing. A child working on attachment
 - Internal locus of control and self-direction
 - Autonomy and agency — the sense that actions have effects
 - Emotional regulation through self-directed experience
-- Tantrums and reactivity (often rooted in helplessness)
-- Transition difficulty (child who feels agency handles transitions differently)
+- Tantrums and reactivity (often rooted in helplessness and lack of agency)
+- Transition difficulty (a child who feels agency handles transitions differently — they are less experienced as things done to them)
 - Building trust in responsiveness — different from Theraplay's mechanism but adjacent
 
 ---
 
 ### How to Find a CDT-Trained Therapist
 
-Child-Directed Therapy draws on the broader tradition of child-centered play therapy (CCPT), developed by Virginia Axline and grounded in Carl Rogers' person-centered approach. Look for:
+Child-Directed Therapy draws on the broader tradition of Child-Centered Play Therapy (CCPT), grounded in Carl Rogers' person-centered approach and Axline's adaptation. Look for:
 
 - Therapists trained in Child-Centered Play Therapy (CCPT) or Non-Directive Play Therapy
 - The Association for Play Therapy (APT) maintains a directory: [a4pt.org](https://www.a4pt.org)
-- Registered Play Therapist (RPT) credential — indicates formal training in play therapy
+- Registered Play Therapist (RPT) credential — indicates formal training and supervised hours in play therapy
 - Ask specifically about experience with children with early trauma or prenatal substance exposure
 
 Some Theraplay-trained therapists also offer child-directed approaches — ask about their full training background.

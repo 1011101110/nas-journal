@@ -27,7 +27,7 @@ Each orienting response costs a small amount of prefrontal cortex attentional re
 
 **Cortisol accumulation across the day.** Cortisol is not a binary on/off signal. Each stress event adds a cortisol pulse to the bloodstream. Cortisol has a half-life of approximately 60–90 minutes — if stressors arrive faster than cortisol clears, levels accumulate. POE kids start the day with higher baseline cortisol and have a lower activation threshold, meaning they pulse cortisol more frequently throughout the day. By late afternoon, cumulative cortisol load is substantially higher than in a neurotypical child who experienced the same objective day.
 
-This is why late afternoon is consistently the worst window. It is not random, and it is not a reflection of the afternoon's events specifically. It is the physiological consequence of a day of cortisol accumulation in a system with insufficient clearance and excessive production.
+This is why late afternoon is consistently the worst window — and why it is predictable. Predictable means preventable. The afternoon meltdown is not inevitable; it is the result of insufficient recovery time earlier in the day. Knowing this moves the intervention upstream: plan recovery windows after hard events, front-load demanding activities in the morning when the bucket is empty, and build deliberate decompression into the daily structure. The cortisol accumulation pattern is a system you can learn to work with — not a fate to endure.
 
 **The shutdown response vs. the meltdown response.** Both are dysregulation, but they represent different nervous system states:
 
@@ -36,6 +36,37 @@ This is why late afternoon is consistently the worst window. It is not random, a
 **Shutdown** (hypoarousal/dorsal vagal) — the child goes quiet, glazed, unresponsive, may seem compliant but is actually dissociated. This is the dorsal vagal collapse response: when the threat is too great for fight-or-flight to manage, the ancient dorsal vagal system produces immobility and dissociation. Parents sometimes read shutdown as "finally calm" — it is not calm, it is a different kind of dysregulation. A child in shutdown needs the same low-stimulation, patient, regulated co-presence as a child in meltdown.
 
 Both responses can occur in the same child on different days, or even as sequential phases of the same event. The progression from meltdown to shutdown (or vice versa) reflects the child's autonomic state cycling as the regulatory system is overwhelmed.
+
+---
+
+> ### 🕐 The 90-Minute Rule
+>
+> After a meltdown, cortisol peaks within 15–20 minutes and takes 60–90 minutes to reach its first half-life. During this window, his threshold for a second meltdown is genuinely lower — a trigger that would normally be minor becomes overwhelming because cortisol is already elevated in his system.
+>
+> Two meltdowns close together without recovery time in between are not additive — they compound. Each one raises the floor for the next.
+>
+> **The protocol:**
+> - After a meltdown, avoid new demands, transitions, and unpredictable environments for at least 90 minutes
+> - Offer regulating activity during recovery (see "Sensory Seeking" note below)
+> - Don't attempt anything demanding until he's clearly back to his baseline
+> - Full cortisol clearance takes 2–3 hours — the 90-minute window is the highest-risk period, not the only risk period
+>
+> The afternoon meltdown is usually preventable. But you have to plan for it in the morning, not at 3pm. If a hard event happened at 9am without adequate recovery time, the 3pm meltdown was physiologically set up hours earlier. Look upstream, not at the meltdown itself.
+
+> ### ⚠️ Sensory Profile Matters Here
+>
+> Standard post-meltdown advice says: reduce stimulation. This is written for sensory avoiders.
+>
+> For sensory seeking kids, the opposite is often true. High-stimulation physical activity IS the regulation tool — not the problem.
+>
+> The distinction:
+> - **Dysregulating high stimulation:** screens, unpredictable noise, crowds, multiple competing demands
+> - **Regulating high stimulation:** physical play with a present caregiver — ball play, hide and seek, rough-and-tumble, active outdoor play
+>
+> High input + predictable + relational + co-regulated = recovery for a sensory seeker.
+> High input + chaotic + unrelational = escalation.
+>
+> Know your child's sensory profile before applying any post-meltdown protocol.
 
 ---
 

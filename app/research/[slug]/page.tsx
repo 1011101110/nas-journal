@@ -24,6 +24,12 @@ export default async function ResearchTopicPage({ params }: { params: { slug: st
         <span className="text-gray-700">{topic.title}</span>
       </div>
 
+      <header className="mb-8">
+        <p className="text-xs font-bold uppercase tracking-[0.16em] text-sage-700">Research</p>
+        <h1 className="mt-2 font-serif text-4xl font-bold text-gray-900">{topic.title}</h1>
+        {topic.summary && <p className="mt-3 max-w-2xl leading-relaxed text-gray-600">{topic.summary}</p>}
+      </header>
+
       {/* Research nav */}
       <div className="flex gap-2 flex-wrap mb-8">
         {allTopics.map((t) => (

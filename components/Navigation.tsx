@@ -4,228 +4,126 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 
 const ageStages = [
-  { slug: "newborn", label: "Newborn", ageRange: "0–4 wks" },
-  { slug: "infant", label: "Infant", ageRange: "1–12 mo" },
-  { slug: "early-toddler", label: "Early Toddler", ageRange: "12–18 mo" },
-  { slug: "toddler", label: "Toddler", ageRange: "18–24 mo" },
-  { slug: "older-toddler", label: "Older Toddler", ageRange: "24–36 mo" },
+  { href: "/age/newborn", label: "Newborn", detail: "0–4 wks" },
+  { href: "/age/infant", label: "Infant", detail: "1–12 mo" },
+  { href: "/age/early-toddler", label: "Early Toddler", detail: "12–18 mo" },
+  { href: "/age/toddler", label: "Toddler", detail: "18–24 mo" },
+  { href: "/age/older-toddler", label: "Older Toddler", detail: "24–36 mo" },
 ];
 
-const symptoms = [
-  { slug: "screaming", label: "Screaming" },
-  { slug: "sleep", label: "Sleep" },
-  { slug: "transitions", label: "Transitions" },
-  { slug: "tantrums", label: "Tantrums" },
-  { slug: "sensory-overload", label: "Sensory Overload" },
-  { slug: "feeding", label: "Feeding" },
-  { slug: "overstimulation", label: "Overstimulation" },
+const challenges = [
+  { href: "/symptoms/sleep", label: "Sleep" },
+  { href: "/symptoms/feeding", label: "Feeding / GI" },
+  { href: "/symptoms/sensory-overload", label: "Sensory Overload" },
+  { href: "/symptoms/overstimulation", label: "Overstimulation" },
+  { href: "/symptoms/tantrums", label: "Meltdowns" },
+  { href: "/symptoms/transitions", label: "Transitions" },
 ];
 
-const interventions = [
-  { slug: "pcit", label: "PCIT" },
-  { slug: "co-regulation", label: "Co-Regulation" },
-  { slug: "routines-predictability", label: "Routines" },
-  { slug: "screen-time-reduction", label: "Screen Time" },
-  { slug: "probiotics-gut-health", label: "Probiotics" },
-  { slug: "omega-3s", label: "Omega-3s" },
-  { slug: "theraplay", label: "Theraplay" },
-  { slug: "child-directed-therapy", label: "Child-Directed Therapy" },
+const stackLinks = [
+  { href: "/stack", label: "The Regulation Stack" },
+  { href: "/interventions/routines-predictability", label: "Environment" },
+  { href: "/interventions/co-regulation", label: "Co-regulation" },
+  { href: "/symptoms/sleep", label: "Sleep" },
+  { href: "/symptoms/sensory-overload", label: "Movement / Sensory" },
+  { href: "/symptoms/feeding", label: "Nutrition / Physiology" },
+  { href: "/interventions/pcit", label: "Therapy" },
 ];
 
-const guides = [
-  { href: "/timeline", label: "Our Journey" },
+const professionalLinks = [
+  { href: "/clinicians-researchers", label: "Professional Hub" },
+  { href: "/research/nas-brain", label: "Mechanisms" },
+  { href: "/research/epigenetics", label: "Epigenetics" },
+  { href: "/research/xylazine-polysubstance", label: "Xylazine Uncertainty" },
+  { href: "/research", label: "Research Library" },
+];
+
+const secondaryLinks = [
+  { href: "/timeline", label: "Parent Journey" },
   { href: "/navigating-medical", label: "Medical System" },
+  { href: "/not-pursuing", label: "Not Pursuing" },
+  { href: "/about", label: "About" },
 ];
+
+function Dropdown({
+  id,
+  label,
+  items,
+  activePrefix,
+  dropdown,
+  setDropdown,
+}: {
+  id: string;
+  label: string;
+  items: { href: string; label: string; detail?: string }[];
+  activePrefix: string;
+  dropdown: string | null;
+  setDropdown: (id: string | null) => void;
+}) {
+  const pathname = usePathname();
+  const active = pathname.startsWith(activePrefix) || items.some((item) => pathname === item.href);
+  return (
+    <div className="relative" onMouseEnter={() => setDropdown(id)} onMouseLeave={() => setDropdown(null)}>
+      <button
+        className={`rounded-md px-3 py-2 transition-colors ${
+          active ? "bg-sage-600 text-white" : "text-sage-100 hover:bg-sage-700 hover:text-white"
+        }`}
+      >
+        {label} ▾
+      </button>
+      {dropdown === id && (
+        <div className="absolute left-0 top-full min-w-56 rounded-md border border-gray-100 bg-white py-2 text-gray-800 shadow-lg">
+          {items.map((item) => (
+            <Link key={item.href} href={item.href} className="block px-4 py-2 text-sm hover:bg-sage-50 hover:text-sage-700">
+              {item.label} {item.detail && <span className="text-xs text-gray-400">({item.detail})</span>}
+            </Link>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
 
 export default function Navigation() {
   const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
   const [dropdown, setDropdown] = useState<string | null>(null);
+  const isActive = (href: string) => pathname === href || pathname.startsWith(`${href}/`);
 
-  const isActive = (prefix: string) => pathname.startsWith(prefix);
+  const primaryLinks = [
+    { href: "/start-here", label: "Start Here" },
+    { href: "/challenges", label: "By Challenge" },
+    { href: "/troubleshooting", label: "When It’s Not Working" },
+  ];
 
   return (
-    <nav className="bg-sage-800 text-white shadow-md relative z-50">
-      <div className="max-w-6xl mx-auto px-4">
-        <div className="flex items-center justify-between h-16">
-          {/* Logo */}
-          <Link
-            href="/"
-            className="font-serif text-lg font-medium text-sage-100 hover:text-white transition-colors"
-          >
-            POE Journal
+    <nav className="relative z-50 bg-sage-800 text-white shadow-md">
+      <div className="mx-auto max-w-7xl px-4">
+        <div className="flex h-16 items-center justify-between">
+          <Link href="/" className="font-serif text-lg font-medium text-sage-100 transition-colors hover:text-white">
+            POE Support
           </Link>
 
-          {/* Desktop nav */}
-          <div className="hidden md:flex items-center gap-1 text-sm">
-            {/* By Age */}
-            <div
-              className="relative"
-              onMouseEnter={() => setDropdown("age")}
-              onMouseLeave={() => setDropdown(null)}
-            >
-              <button
-                className={`px-3 py-2 rounded-md transition-colors ${
-                  isActive("/age")
-                    ? "bg-sage-600 text-white"
-                    : "text-sage-200 hover:bg-sage-700 hover:text-white"
+          <div className="hidden items-center gap-1 text-sm lg:flex">
+            {primaryLinks.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className={`rounded-md px-3 py-2 transition-colors ${
+                  isActive(link.href) ? "bg-sage-600 text-white" : "text-sage-100 hover:bg-sage-700 hover:text-white"
                 }`}
               >
-                By Age ▾
-              </button>
-              {dropdown === "age" && (
-                <div className="absolute top-full left-0 bg-white text-gray-800 rounded-md shadow-lg py-2 min-w-48 border border-gray-100">
-                  {ageStages.map((s) => (
-                    <Link
-                      key={s.slug}
-                      href={`/age/${s.slug}`}
-                      className="block px-4 py-2 text-sm hover:bg-sage-50 hover:text-sage-700"
-                    >
-                      {s.label}{" "}
-                      <span className="text-gray-400 text-xs">({s.ageRange})</span>
-                    </Link>
-                  ))}
-                </div>
-              )}
-            </div>
-
-            {/* By Symptom */}
-            <div
-              className="relative"
-              onMouseEnter={() => setDropdown("symptoms")}
-              onMouseLeave={() => setDropdown(null)}
-            >
-              <button
-                className={`px-3 py-2 rounded-md transition-colors ${
-                  isActive("/symptoms")
-                    ? "bg-amber-600 text-white"
-                    : "text-amber-200 hover:bg-sage-700 hover:text-white"
-                }`}
-              >
-                ⚡ By Symptom ▾
-              </button>
-              {dropdown === "symptoms" && (
-                <div className="absolute top-full left-0 bg-white text-gray-800 rounded-md shadow-lg py-2 min-w-44 border border-gray-100">
-                  {symptoms.map((s) => (
-                    <Link
-                      key={s.slug}
-                      href={`/symptoms/${s.slug}`}
-                      className="block px-4 py-2 text-sm hover:bg-sage-50 hover:text-sage-700"
-                    >
-                      {s.label}
-                    </Link>
-                  ))}
-                </div>
-              )}
-            </div>
-
-            {/* Interventions */}
-            <div
-              className="relative"
-              onMouseEnter={() => setDropdown("interventions")}
-              onMouseLeave={() => setDropdown(null)}
-            >
-              <button
-                className={`px-3 py-2 rounded-md transition-colors ${
-                  isActive("/interventions")
-                    ? "bg-sage-600 text-white"
-                    : "text-sage-200 hover:bg-sage-700 hover:text-white"
-                }`}
-              >
-                Interventions ▾
-              </button>
-              {dropdown === "interventions" && (
-                <div className="absolute top-full left-0 bg-white text-gray-800 rounded-md shadow-lg py-2 min-w-44 border border-gray-100">
-                  {interventions.map((i) => (
-                    <Link
-                      key={i.slug}
-                      href={`/interventions/${i.slug}`}
-                      className="block px-4 py-2 text-sm hover:bg-sage-50 hover:text-sage-700"
-                    >
-                      {i.label}
-                    </Link>
-                  ))}
-                </div>
-              )}
-            </div>
-
-            {/* Our Journey */}
-            <Link
-              href="/timeline"
-              className={`px-3 py-2 rounded-md transition-colors ${
-                pathname === "/timeline"
-                  ? "bg-sage-600 text-white"
-                  : "text-sage-200 hover:bg-sage-700 hover:text-white"
-              }`}
-            >
-              Our Journey
-            </Link>
-
-            {/* Guides dropdown */}
-            <div
-              className="relative"
-              onMouseEnter={() => setDropdown("guides")}
-              onMouseLeave={() => setDropdown(null)}
-            >
-              <button
-                className={`px-3 py-2 rounded-md transition-colors ${
-                  isActive("/navigating-medical")
-                    ? "bg-sage-600 text-white"
-                    : "text-sage-200 hover:bg-sage-700 hover:text-white"
-                }`}
-              >
-                Guides ▾
-              </button>
-              {dropdown === "guides" && (
-                <div className="absolute top-full left-0 bg-white text-gray-800 rounded-md shadow-lg py-2 min-w-48 border border-gray-100">
-                  {guides.map((g) => (
-                    <Link
-                      key={g.href}
-                      href={g.href}
-                      className="block px-4 py-2 text-sm hover:bg-sage-50 hover:text-sage-700"
-                    >
-                      {g.label}
-                    </Link>
-                  ))}
-                </div>
-              )}
-            </div>
-
-            <Link
-              href="/not-pursuing"
-              className={`px-3 py-2 rounded-md transition-colors ${
-                pathname === "/not-pursuing"
-                  ? "bg-sage-600 text-white"
-                  : "text-sage-200 hover:bg-sage-700 hover:text-white"
-              }`}
-            >
-              Not Pursuing
-            </Link>
-            <Link
-              href="/research"
-              className={`px-3 py-2 rounded-md transition-colors ${
-                isActive("/research")
-                  ? "bg-sage-600 text-white"
-                  : "text-sage-200 hover:bg-sage-700 hover:text-white"
-              }`}
-            >
-              Research
-            </Link>
-            <Link
-              href="/about"
-              className={`px-3 py-2 rounded-md transition-colors ${
-                pathname === "/about"
-                  ? "bg-sage-600 text-white"
-                  : "text-sage-200 hover:bg-sage-700 hover:text-white"
-              }`}
-            >
-              About
-            </Link>
+                {link.label}
+              </Link>
+            ))}
+            <Dropdown id="age" label="By Age" items={ageStages} activePrefix="/age" dropdown={dropdown} setDropdown={setDropdown} />
+            <Dropdown id="stack" label="Build the Stack" items={stackLinks} activePrefix="/stack" dropdown={dropdown} setDropdown={setDropdown} />
+            <Dropdown id="professional" label="Clinicians & Researchers" items={professionalLinks} activePrefix="/clinicians-researchers" dropdown={dropdown} setDropdown={setDropdown} />
+            <Dropdown id="more" label="More" items={secondaryLinks} activePrefix="/about" dropdown={dropdown} setDropdown={setDropdown} />
           </div>
 
-          {/* Mobile hamburger */}
           <button
-            className="md:hidden text-sage-200 hover:text-white p-2"
+            className="p-2 text-sage-100 hover:text-white lg:hidden"
             onClick={() => setMobileOpen(!mobileOpen)}
             aria-label="Toggle menu"
           >
@@ -233,96 +131,47 @@ export default function Navigation() {
           </button>
         </div>
 
-        {/* Mobile menu */}
         {mobileOpen && (
-          <div className="md:hidden pb-4 border-t border-sage-700 pt-4 space-y-1">
-            <div className="text-xs text-sage-400 uppercase tracking-wide mb-1 px-3">By Age</div>
-            {ageStages.map((s) => (
-              <Link
-                key={s.slug}
-                href={`/age/${s.slug}`}
-                className={`block px-3 py-2 rounded-md text-sm transition-colors ${
-                  isActive(`/age/${s.slug}`)
-                    ? "bg-sage-600 text-white"
-                    : "text-sage-200 hover:bg-sage-700"
-                }`}
-                onClick={() => setMobileOpen(false)}
-              >
-                {s.label} <span className="text-sage-400 text-xs">({s.ageRange})</span>
-              </Link>
-            ))}
-
-            <div className="border-t border-sage-700 pt-3 mt-2">
-              <div className="text-xs text-sage-400 uppercase tracking-wide mb-1 px-3">By Symptom</div>
-              {symptoms.map((s) => (
-                <Link
-                  key={s.slug}
-                  href={`/symptoms/${s.slug}`}
-                  className={`block px-3 py-2 rounded-md text-sm transition-colors ${
-                    isActive(`/symptoms/${s.slug}`)
-                      ? "bg-amber-600 text-white"
-                      : "text-amber-200 hover:bg-sage-700"
-                  }`}
-                  onClick={() => setMobileOpen(false)}
-                >
-                  {s.label}
-                </Link>
-              ))}
-            </div>
-
-            <div className="border-t border-sage-700 pt-3 mt-2">
-              <div className="text-xs text-sage-400 uppercase tracking-wide mb-1 px-3">Interventions</div>
-              {interventions.map((i) => (
-                <Link
-                  key={i.slug}
-                  href={`/interventions/${i.slug}`}
-                  className={`block px-3 py-2 rounded-md text-sm transition-colors ${
-                    isActive(`/interventions/${i.slug}`)
-                      ? "bg-sage-600 text-white"
-                      : "text-sage-200 hover:bg-sage-700"
-                  }`}
-                  onClick={() => setMobileOpen(false)}
-                >
-                  {i.label}
-                </Link>
-              ))}
-            </div>
-
-            <div className="border-t border-sage-700 pt-3 mt-2">
-              <div className="text-xs text-sage-400 uppercase tracking-wide mb-1 px-3">Guides</div>
-              {guides.map((g) => (
-                <Link
-                  key={g.href}
-                  href={g.href}
-                  className={`block px-3 py-2 rounded-md text-sm transition-colors ${
-                    pathname === g.href
-                      ? "bg-sage-600 text-white"
-                      : "text-sage-200 hover:bg-sage-700"
-                  }`}
-                  onClick={() => setMobileOpen(false)}
-                >
-                  {g.label}
-                </Link>
-              ))}
-            </div>
-
-            <div className="border-t border-sage-700 pt-3 mt-2">
-              {[
-                { href: "/not-pursuing", label: "Not Pursuing" },
-                { href: "/research", label: "Research" },
-                { href: "/about", label: "About" },
-              ].map((link) => (
+          <div className="space-y-4 border-t border-sage-700 py-4 lg:hidden">
+            <div className="space-y-1">
+              {[...primaryLinks, { href: "/age", label: "By Age" }, { href: "/stack", label: "Build the Stack" }, { href: "/clinicians-researchers", label: "Clinicians & Researchers" }].map((link) => (
                 <Link
                   key={link.href}
                   href={link.href}
-                  className={`block px-3 py-2 rounded-md text-sm transition-colors ${
-                    pathname === link.href || isActive(link.href)
-                      ? "bg-sage-600 text-white"
-                      : "text-sage-200 hover:bg-sage-700"
+                  className={`block rounded-md px-3 py-2 text-sm transition-colors ${
+                    isActive(link.href) ? "bg-sage-600 text-white" : "text-sage-100 hover:bg-sage-700"
                   }`}
                   onClick={() => setMobileOpen(false)}
                 >
                   {link.label}
+                </Link>
+              ))}
+            </div>
+
+            <div className="border-t border-sage-700 pt-3">
+              <div className="mb-1 px-3 text-xs uppercase tracking-wide text-sage-300">Top challenges</div>
+              {challenges.map((item) => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className="block rounded-md px-3 py-2 text-sm text-amber-100 transition-colors hover:bg-sage-700"
+                  onClick={() => setMobileOpen(false)}
+                >
+                  {item.label}
+                </Link>
+              ))}
+            </div>
+
+            <div className="border-t border-sage-700 pt-3">
+              <div className="mb-1 px-3 text-xs uppercase tracking-wide text-sage-300">More</div>
+              {secondaryLinks.map((item) => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className="block rounded-md px-3 py-2 text-sm text-sage-100 transition-colors hover:bg-sage-700"
+                  onClick={() => setMobileOpen(false)}
+                >
+                  {item.label}
                 </Link>
               ))}
             </div>

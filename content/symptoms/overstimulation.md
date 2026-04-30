@@ -1,130 +1,64 @@
 ---
 title: "Overstimulation"
 slug: "overstimulation"
-summary: "Overstimulation is the result of accumulated sensory and stress load exceeding capacity — it's cumulative, not sudden"
+summary: "When the total load becomes too much — and how to reduce stress without removing every useful input."
 relatedInterventions: ["routines-predictability", "co-regulation", "screen-time-reduction"]
-relatedSymptoms: ["sensory-overload", "tantrums", "screaming", "sleep"]
-ageRelevance: ["infant", "early-toddler", "toddler", "older-toddler"]
+relatedSymptoms: ["sensory-overload", "screaming", "tantrums", "sleep"]
+ageRelevance: ["newborn", "infant", "early-toddler", "toddler"]
 ---
 
-## Overstimulation
+## In plain English
 
-**The short version:** Overstimulation is what happens when the accumulated sensory and stress load of the day exceeds the nervous system's capacity. It looks sudden. It isn't. You can learn to predict and prevent most of it.
+Overstimulation is not just “too much noise.” It is too much total load for the child’s nervous system: light, sound, touch, transitions, hunger, fatigue, novelty, social demand, and emotional intensity.
 
----
+For children with prenatal exposure, the threshold may be lower and recovery may take longer.
 
-### Why This Happens in NAS Kids
+## What this may look like
 
-Overstimulation is distinct from sensory overload — though they overlap. Sensory overload is an acute response to a specific sensory environment. Overstimulation is cumulative: the nervous system's stress load has been building all day, and a trigger that would otherwise be minor pushes it over threshold.
+- sudden screaming or frantic behavior
+- refusing comfort that usually helps
+- getting more dysregulated when adults talk more
+- worse sleep after busy days
+- after-visit or after-daycare collapse
+- seeming “wired and tired”
 
-**Sensory habituation deficits.** Habituation — the nervous system's ability to progressively reduce its response to a repeated, non-threatening stimulus — is one of the most basic forms of sensory adaptation. When you first enter a loud restaurant, the noise is salient. After 20 minutes, you habituate and can hold a conversation. This habituation requires the same thalamic gating and GABAergic inhibitory mechanisms that are disrupted in POE kids.
+## How it changes by age
 
-POE kids habituate more slowly and less completely to sensory environments. The grocery store doesn't become background noise over a 30-minute visit the way it would for a neurotypical child. The sensory load of that environment continues to be processed at near-full amplitude throughout the visit. By the end of the shopping trip, the POE child's cumulative sensory burden is substantially greater than what a neurotypical child has accumulated — not because more happened, but because less was filtered.
+### 0–6 months {#0-6-months}
 
-**The orienting response and competing stimuli.** The orienting response is the automatic attentional shift toward novel or unexpected stimuli — the "what was that?" reflex. It is mediated by the same thalamo-cortical circuits involved in sensory gating. When sensory gating is impaired, the orienting response triggers more frequently — every ambient noise, every movement at the edge of vision, every new sensation is processed as potentially relevant and generates a brief attentional reorientation. In a busy environment, these orienting responses fire continuously.
+Overstimulation may look like feeding disruption, startle, crying, sweating, gaze aversion, or inability to settle. Support is mostly environmental: reduce light/noise, keep handling predictable, and use caregiver co-regulation.
 
-Each orienting response costs a small amount of prefrontal cortex attentional resources and generates a small stress response. For a nervous system with limited prefrontal buffering capacity and an already-elevated cortisol baseline, continuous orienting responses accumulate into a significant depletion of regulatory capacity over the course of a day.
+### 6–12 months {#6-12-months}
 
-**Cortisol accumulation across the day.** Cortisol is not a binary on/off signal. Each stress event adds a cortisol pulse to the bloodstream. Cortisol has a half-life of approximately 60–90 minutes — if stressors arrive faster than cortisol clears, levels accumulate. POE kids start the day with higher baseline cortisol and have a lower activation threshold, meaning they pulse cortisol more frequently throughout the day. By late afternoon, cumulative cortisol load is substantially higher than in a neurotypical child who experienced the same objective day.
+Mobility, solids, separation, and nap changes add load. A baby may seem playful and then suddenly tip into overwhelm. Watch busy rooms, visitors, errands, and missed naps.
 
-This is why late afternoon is consistently the worst window — and why it is predictable. Predictable means preventable. The afternoon meltdown is not inevitable; it is the result of insufficient recovery time earlier in the day. Knowing this moves the intervention upstream: plan recovery windows after hard events, front-load demanding activities in the morning when the bucket is empty, and build deliberate decompression into the daily structure. The cortisol accumulation pattern is a system you can learn to work with — not a fate to endure.
+### 1–3 years {#1-3-years}
 
-**The shutdown response vs. the meltdown response.** Both are dysregulation, but they represent different nervous system states:
+Toddlers may become louder, faster, more oppositional, or more sensory seeking when overloaded. They may need organizing movement before quiet, not just removal of stimulation.
 
-**Meltdown** (hyperarousal/sympathetic) — the child explodes: screaming, physical aggression, inability to respond to direction, visible emotional flood. The prefrontal cortex is offline due to amygdala overwhelm. This is the more visible presentation.
+### 3–5 years {#3-5-years}
 
-**Shutdown** (hypoarousal/dorsal vagal) — the child goes quiet, glazed, unresponsive, may seem compliant but is actually dissociated. This is the dorsal vagal collapse response: when the threat is too great for fight-or-flight to manage, the ancient dorsal vagal system produces immobility and dissociation. Parents sometimes read shutdown as "finally calm" — it is not calm, it is a different kind of dysregulation. A child in shutdown needs the same low-stimulation, patient, regulated co-presence as a child in meltdown.
+Preschool can create delayed overload. The child may hold it together at school and collapse at home. Build decompression after group settings.
 
-Both responses can occur in the same child on different days, or even as sequential phases of the same event. The progression from meltdown to shutdown (or vice versa) reflects the child's autonomic state cycling as the regulatory system is overwhelmed.
+### School age {#school-age}
 
----
+Overstimulation may look like irritability, avoidance, anxiety, attention problems, or after-school shutdown. Track school demands, sleep, screens, and transitions.
 
-> ### 🕐 The 90-Minute Rule
->
-> After a meltdown, cortisol peaks within 15–20 minutes and takes 60–90 minutes to reach its first half-life. During this window, his threshold for a second meltdown is genuinely lower — a trigger that would normally be minor becomes overwhelming because cortisol is already elevated in his system.
->
-> Two meltdowns close together without recovery time in between are not additive — they compound. Each one raises the floor for the next.
->
-> **The protocol:**
-> - After a meltdown, avoid new demands, transitions, and unpredictable environments for at least 90 minutes
-> - Offer regulating activity during recovery (see "Sensory Seeking" note below)
-> - Don't attempt anything demanding until he's clearly back to his baseline
-> - Full cortisol clearance takes 2–3 hours — the 90-minute window is the highest-risk period, not the only risk period
->
-> The afternoon meltdown is usually preventable. But you have to plan for it in the morning, not at 3pm. If a hard event happened at 9am without adequate recovery time, the 3pm meltdown was physiologically set up hours earlier. Look upstream, not at the meltdown itself.
+## What to try first
 
-> ### ⚠️ Sensory Profile Matters Here
->
-> Standard post-meltdown advice says: reduce stimulation. This is written for sensory avoiders.
->
-> For sensory seeking kids, the opposite is often true. High-stimulation physical activity IS the regulation tool — not the problem.
->
-> The distinction:
-> - **Dysregulating high stimulation:** screens, unpredictable noise, crowds, multiple competing demands
-> - **Regulating high stimulation:** physical play with a present caregiver — ball play, hide and seek, rough-and-tumble, active outdoor play
->
-> High input + predictable + relational + co-regulated = recovery for a sensory seeker.
-> High input + chaotic + unrelational = escalation.
->
-> Know your child's sensory profile before applying any post-meltdown protocol.
+- Lower demands before the child is past threshold.
+- Use predictable transitions.
+- Reduce adult talking during escalation.
+- Offer calm, firm co-regulation.
+- Build decompression after high-input settings.
+- Add organizing movement earlier in the day if the child is a sensory seeker.
 
----
+## If it’s not working
 
-### Immediate Response
+Check whether the plan is too generic. Some children need less input. Some need different input. A child who seeks crashing, pressure, or movement may become worse if every adult response is simply “quiet down.”
 
-**⚡ When overstimulation is happening:**
+Also check body factors: sleep debt, hunger, constipation, reflux, illness, and pain can shrink the child’s tolerance for stimulation.
 
-1. **Reduce stimulation immediately.** This is the primary intervention. Lower the lights. Reduce sound. Remove from busy environment.
-2. **Quiet, calm presence.** Don't try to engage, entertain, or explain. Just be there, regulated.
-3. **Offer regulating input:** firm touch if accepted, weighted blanket, consistent rocking.
-4. **Don't require anything.** No compliance, no tasks, no transitions. Wait for recovery.
-5. **Protect quiet recovery time.** 15–30 minutes of low-stimulation time after overstimulation before reintroducing demands.
+## Stack interactions
 
----
-
-### Structural Approaches
-
-🏗️ **What to build into daily life:**
-
-**Track the load through the day.** Mentally (or literally on paper): what happened today that cost nervous system capacity? New environment, disrupted nap, lots of transitions, high-sensory activity — these all add to the bucket. By mid-afternoon you should have a sense of how full it is.
-
-**Build recovery time into the day.** A 20–30 minute quiet/low-stimulation period after a high-demand morning activity prevents afternoon overflow. This is not "downtime" as luxury — it's a functional recovery window.
-
-**Front-load demanding activities.** Schedule appointments, errands, new environments, and social demands in the morning when the bucket is empty. Late afternoon is for low-stimulation activities and home routines.
-
-**Protect the pre-bedtime window.** The 60 minutes before bed should be the lowest-stimulation period of the day. No screens, no exciting play, no novel activities. This is wind-down. The nervous system needs this to transition to sleep.
-
-**Daily "regulation anchors":**
-- Morning outdoor time (natural light + proprioceptive input resets the system)
-- Post-nap quiet time before reintroducing demands
-- Evening quiet routine before bed
-
-**Reduce baseline load:**
-- Consistent routines reduce the per-event cortisol cost of predictable transitions
-- Reduced screen time lowers the baseline stimulation threshold
-- Physical activity increases capacity and builds regulation
-
----
-
-### Interventions That Help Here
-
-🔬 **Long Game:**
-
-- **[Routines & Predictability](/interventions/routines-predictability)** — Reduces per-event cortisol cost; predictable days fill the bucket more slowly.
-- **[Co-Regulation](/interventions/co-regulation)** — Your regulated presence during high-load periods prevents tipping; your dysregulation accelerates tipping.
-- **[Screen Time Reduction](/interventions/screen-time-reduction)** — Screens are high-stimulation inputs that fill the bucket faster; reduction gives the system more room.
-
----
-
-### What Worked For Us ★
-
-**Compression vest** (Harkla or similar sensory OT rec): For kids who are sensory seekers, a compression vest during high-stimulation environments provides the deep pressure input that reduces nervous system scanning for input. Takes time to find the right fit and acceptance.
-
-**Swing (indoor or outdoor):** Vestibular input — the sensation of rhythmic movement — is specifically regulating for many POE kids. A small indoor swing in a low-stimulation corner of the house provides on-demand regulation.
-
----
-
-### Related
-
-**Symptoms:** [Sensory Overload](/symptoms/sensory-overload) · [Tantrums](/symptoms/tantrums) · [Screaming](/symptoms/screaming) · [Sleep](/symptoms/sleep)  
-**Age stages:** [Infant](/age/infant) · [Early Toddler](/age/early-toddler) · [Toddler](/age/toddler)
+Overstimulation is where environment, sleep, movement, nutrition/GI, and co-regulation meet. If the child is overloaded every day, the solution is rarely one calming technique. It is usually a lower-load rhythm plus better recovery supports.

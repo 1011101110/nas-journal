@@ -1,200 +1,114 @@
 import Link from "next/link";
-import { getAgeStages, getSymptoms, getInterventions } from "@/lib/content";
-
-const symptomIcons: Record<string, string> = {
-  screaming: "🔊",
-  sleep: "😴",
-  transitions: "🔄",
-  tantrums: "⚡",
-  "sensory-overload": "🌊",
-  feeding: "🍽️",
-  overstimulation: "📡",
-};
+import SectionCard from "@/components/content/SectionCard";
+import StackLayerGrid from "@/components/content/StackLayerGrid";
+import TroubleshootingChecklist from "@/components/content/TroubleshootingChecklist";
+import { ageNavigation, challengeNavigation } from "@/lib/site-ia";
 
 export default function Home() {
-  const stages = getAgeStages();
-  const symptoms = getSymptoms();
-  const interventions = getInterventions().filter((i) => i.priority === "core");
-
   return (
     <div className="min-h-screen">
-      {/* Hero */}
-      <section className="bg-warm-50 border-b border-warm-200 py-16 px-4">
-        <div className="max-w-4xl mx-auto">
-          <h1 className="font-serif text-4xl md:text-5xl font-bold text-gray-800 mb-5 leading-tight">
-            A Parent&apos;s Journal: Prenatal Opioid Exposure
-          </h1>
-          <p className="text-xl text-gray-600 mb-4 max-w-2xl leading-relaxed">
-            A practical resource for parents and caregivers of children with prenatal opioid exposure (POE).
-          </p>
-          <p className="text-base text-gray-500 max-w-2xl">
-            Every behavioral challenge in children with prenatal opioid exposure traces back to a dysregulated stress response
-            system — a nervous system wired differently from birth. This site explains the
-            mechanisms and what to do about them.
-          </p>
-        </div>
-      </section>
-
-      {/* Dual entry */}
-      <section className="max-w-5xl mx-auto px-4 py-14">
-        <div className="grid md:grid-cols-2 gap-8">
-          {/* Age journey entry */}
-          <div>
-            <div className="flex items-center gap-2 mb-4">
-              <span className="text-2xl">📅</span>
-              <h2 className="font-serif text-2xl font-bold text-gray-800">The Journey by Age</h2>
-            </div>
-            <p className="text-gray-500 text-sm mb-5">
-              What to expect at each stage and what to prioritize. Start here if you want context.
+      <section className="border-b border-warm-200 bg-gradient-to-b from-warm-50 to-white px-4 py-16 md:py-20">
+        <div className="mx-auto max-w-6xl">
+          <div className="max-w-4xl">
+            <p className="mb-4 text-xs font-bold uppercase tracking-[0.2em] text-sage-700">
+              Parent-built · research-informed · clinically useful
             </p>
-            <div className="space-y-2">
-              {stages.map((stage) => (
-                <Link
-                  key={stage.slug}
-                  href={`/age/${stage.slug}`}
-                  className="flex items-center justify-between bg-white border border-gray-200 rounded-xl px-4 py-3 hover:border-sage-400 hover:shadow-sm transition-all group"
-                >
-                  <div>
-                    <span className="font-medium text-gray-800 group-hover:text-sage-700 text-sm transition-colors">
-                      {stage.title}
-                    </span>
-                    <span className="text-gray-400 text-xs ml-2">{stage.ageRange}</span>
-                  </div>
-                  <span className="text-sage-400 text-sm">→</span>
-                </Link>
-              ))}
-            </div>
-            <Link
-              href="/age"
-              className="inline-block mt-4 text-sage-600 hover:text-sage-800 text-sm font-medium"
-            >
-              All age stages →
-            </Link>
-          </div>
-
-          {/* Symptom toolkit entry */}
-          <div>
-            <div className="flex items-center gap-2 mb-4">
-              <span className="text-2xl">⚡</span>
-              <h2 className="font-serif text-2xl font-bold text-gray-800">By Symptom</h2>
-            </div>
-            <p className="text-gray-500 text-sm mb-5">
-              Fast access to what&apos;s happening right now. What to do, why it&apos;s happening,
-              what to build long-term.
+            <h1 className="font-serif text-4xl font-bold leading-tight text-gray-900 md:text-6xl">
+              Prenatal exposure is complex. Support has to be layered.
+            </h1>
+            <p className="mt-6 max-w-3xl text-lg leading-relaxed text-gray-600 md:text-xl">
+              A practical guide for families, clinicians, and researchers — focused on stacking environment,
+              therapy, movement, sleep, nutrition, and caregiver support, then troubleshooting what to do when
+              standard interventions do not work.
             </p>
-            <div className="grid grid-cols-2 gap-2">
-              {symptoms.map((symptom) => (
-                <Link
-                  key={symptom.slug}
-                  href={`/symptoms/${symptom.slug}`}
-                  className="flex items-center gap-2 bg-white border border-gray-200 rounded-xl px-3 py-3 hover:border-amber-400 hover:shadow-sm transition-all group"
-                >
-                  <span className="text-lg">{symptomIcons[symptom.slug] || "•"}</span>
-                  <span className="text-sm font-medium text-gray-700 group-hover:text-amber-700 transition-colors leading-tight">
-                    {symptom.title}
-                  </span>
-                </Link>
-              ))}
-            </div>
-            <Link
-              href="/symptoms"
-              className="inline-block mt-4 text-amber-600 hover:text-amber-800 text-sm font-medium"
-            >
-              All symptoms →
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* Intervention system teaser */}
-      <section className="bg-sage-50 border-t border-b border-sage-200 py-14 px-4">
-        <div className="max-w-5xl mx-auto">
-          <div className="mb-6">
-            <h2 className="font-serif text-2xl font-bold text-gray-800 mb-2">The System</h2>
-            <p className="text-gray-600 text-sm max-w-2xl">
-              These interventions cut across multiple symptoms simultaneously. They&apos;re not
-              isolated tips — they&apos;re a coordinated approach to the underlying dysregulation.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-4 mb-6">
-            {interventions.map((intervention) => (
-              <Link
-                key={intervention.slug}
-                href={`/interventions/${intervention.slug}`}
-                className="bg-white border border-sage-200 rounded-xl p-4 hover:border-sage-400 hover:shadow-sm transition-all group"
-              >
-                <div className="flex items-start justify-between gap-2">
-                  <div>
-                    <h3 className="font-semibold text-gray-800 text-sm group-hover:text-sage-700 transition-colors">
-                      {intervention.title}
-                    </h3>
-                    {intervention.summary && (
-                      <p className="text-gray-500 text-xs mt-1 leading-snug">
-                        {intervention.summary}
-                      </p>
-                    )}
-                  </div>
-                  <span className="text-sage-400 text-sm shrink-0">→</span>
-                </div>
-                {intervention.crossCuts?.length > 0 && (
-                  <div className="flex flex-wrap gap-1 mt-2">
-                    {intervention.crossCuts.slice(0, 3).map((s: string) => (
-                      <span key={s} className="text-[10px] bg-amber-50 text-amber-600 px-1.5 py-0.5 rounded-full">
-                        {s.replace(/-/g, ' ')}
-                      </span>
-                    ))}
-                  </div>
-                )}
+            <div className="mt-8 flex flex-wrap gap-3">
+              <Link href="/start-here" className="rounded-xl bg-sage-700 px-5 py-3 text-sm font-semibold text-white shadow-sm hover:bg-sage-800">
+                Start here
               </Link>
-            ))}
+              <Link href="/challenges" className="rounded-xl border border-amber-300 bg-amber-50 px-5 py-3 text-sm font-semibold text-amber-800 hover:bg-amber-100">
+                Find help by challenge
+              </Link>
+              <Link href="/troubleshooting" className="rounded-xl border border-rose-200 bg-white px-5 py-3 text-sm font-semibold text-gray-800 hover:border-rose-300 hover:bg-rose-50">
+                When it’s not working
+              </Link>
+            </div>
           </div>
-
-          <Link
-            href="/interventions"
-            className="inline-block bg-sage-700 text-white px-6 py-3 rounded-lg text-sm font-medium hover:bg-sage-800 transition-colors"
-          >
-            See all interventions →
-          </Link>
         </div>
       </section>
 
-      {/* Bottom nav strip */}
-      <section className="max-w-5xl mx-auto px-4 py-10">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          <Link
-            href="/not-pursuing"
-            className="bg-white border border-gray-200 rounded-xl p-4 hover:border-gray-400 hover:shadow-sm transition-all group text-center"
-          >
-            <div className="text-2xl mb-1">🚫</div>
-            <div className="text-sm font-semibold text-gray-700 group-hover:text-gray-900">Not Pursuing</div>
-            <div className="text-xs text-gray-400 mt-0.5">Honest deprioritization</div>
-          </Link>
-          <Link
-            href="/research"
-            className="bg-white border border-gray-200 rounded-xl p-4 hover:border-gray-400 hover:shadow-sm transition-all group text-center"
-          >
-            <div className="text-2xl mb-1">🔬</div>
-            <div className="text-sm font-semibold text-gray-700 group-hover:text-gray-900">Research</div>
-            <div className="text-xs text-gray-400 mt-0.5">The science</div>
-          </Link>
-          <Link
-            href="/about"
-            className="bg-white border border-gray-200 rounded-xl p-4 hover:border-gray-400 hover:shadow-sm transition-all group text-center"
-          >
-            <div className="text-2xl mb-1">👤</div>
-            <div className="text-sm font-semibold text-gray-700 group-hover:text-gray-900">About</div>
-            <div className="text-xs text-gray-400 mt-0.5">Who built this</div>
-          </Link>
-          <Link
-            href="/interventions"
-            className="bg-sage-700 text-white rounded-xl p-4 hover:bg-sage-800 transition-all group text-center"
-          >
-            <div className="text-2xl mb-1">🎯</div>
-            <div className="text-sm font-semibold">Interventions</div>
-            <div className="text-xs text-sage-200 mt-0.5">Start here</div>
-          </Link>
+      <section className="mx-auto max-w-6xl px-4 py-12 md:py-16">
+        <div className="mb-8 max-w-3xl">
+          <p className="text-xs font-bold uppercase tracking-[0.18em] text-amber-700">The core problem</p>
+          <h2 className="mt-2 font-serif text-3xl font-bold text-gray-900">Sometimes the right advice still falls apart.</h2>
+          <p className="mt-4 leading-relaxed text-gray-600">
+            Sleep routines, behavior plans, sensory strategies, nutrition changes, and therapy can all be valid — and
+            still fail if the child’s body, developmental stage, environment, sensory needs, or caregiver capacity are
+            overloaded. This site treats intervention failure as information, not blame.
+          </p>
         </div>
+        <div className="grid gap-4 md:grid-cols-3">
+          <SectionCard href="/troubleshooting" eyebrow="Troubleshoot" title="What to do when it’s not working" description="Check development, body signals, sensory profile, environment, sequence, and caregiver capacity." accent="rose" />
+          <SectionCard href="/stack" eyebrow="Stack" title="Build conditions for change" description="See how different supports interact instead of treating each intervention as a silo." accent="blue" />
+          <SectionCard href="/clinicians-researchers" eyebrow="Bridge" title="Connect parents, clinicians, and researchers" description="Bring home observations, mechanisms, evidence boundaries, and research gaps into one framework." />
+        </div>
+      </section>
+
+      <section className="border-y border-sage-200 bg-sage-50 px-4 py-12 md:py-16">
+        <div className="mx-auto max-w-6xl">
+          <div className="mb-8 max-w-3xl">
+            <p className="text-xs font-bold uppercase tracking-[0.18em] text-sage-700">The regulation stack</p>
+            <h2 className="mt-2 font-serif text-3xl font-bold text-gray-900">One layer changes how the others work.</h2>
+            <p className="mt-4 leading-relaxed text-gray-600">
+              OT may work better when sleep improves. Sleep may improve when sensory needs are met. Behavior strategies
+              may only become accessible after the child’s nervous system is less overloaded.
+            </p>
+          </div>
+          <StackLayerGrid />
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-4 py-12 md:py-16">
+        <div className="mb-8 max-w-3xl">
+          <p className="text-xs font-bold uppercase tracking-[0.18em] text-amber-700">Choose your path</p>
+          <h2 className="mt-2 font-serif text-3xl font-bold text-gray-900">Enter by the question you have today.</h2>
+        </div>
+        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+          <SectionCard href="/start-here" eyebrow="New here" title="Understand the big picture" description="What prenatal exposure can mean, why regulation matters, and how to use the site." />
+          <SectionCard href="/age" eyebrow="Development" title="Browse by age" description="Interventions look different for a 6-month-old than a 2-year-old. Start with stage." accent="blue" />
+          <SectionCard href="/challenges" eyebrow="Practical" title="Browse by challenge" description="Sleep, sensory needs, feeding/GI, meltdowns, transitions, school, and therapy." accent="amber" />
+          <SectionCard href="/stack" eyebrow="Integrated" title="Build the stack" description="Layer environment, co-regulation, sleep, movement, nutrition, therapy, and medical care." accent="blue" />
+          <SectionCard href="/troubleshooting" eyebrow="Stuck" title="Fix what is falling apart" description="Decide whether to persist, adapt, stack, pause, or escalate." accent="rose" />
+          <SectionCard href="/clinicians-researchers" eyebrow="Professional" title="For clinicians & researchers" description="Mechanisms, evidence gaps, xylazine-era uncertainty, and integrated care framing." />
+        </div>
+      </section>
+
+      <section className="border-y border-warm-200 bg-white px-4 py-12 md:py-16">
+        <div className="mx-auto grid max-w-6xl gap-8 lg:grid-cols-2">
+          <div>
+            <h2 className="font-serif text-2xl font-bold text-gray-900">Common challenges</h2>
+            <div className="mt-5 grid gap-3 sm:grid-cols-2">
+              {challengeNavigation.map((item) => (
+                <Link key={item.href} href={item.href} className="rounded-2xl border border-gray-200 bg-warm-50 p-4 text-sm font-semibold text-gray-800 hover:border-amber-300 hover:bg-amber-50">
+                  {item.label} <span className="text-amber-600">→</span>
+                </Link>
+              ))}
+            </div>
+          </div>
+          <div>
+            <h2 className="font-serif text-2xl font-bold text-gray-900">Age lenses</h2>
+            <div className="mt-5 grid gap-3 sm:grid-cols-2">
+              {ageNavigation.map((item) => (
+                <Link key={item.href} href={item.href} className="rounded-2xl border border-gray-200 bg-warm-50 p-4 text-sm font-semibold text-gray-800 hover:border-sage-300 hover:bg-sage-50">
+                  {item.label} <span className="text-xs text-gray-500">{item.detail}</span>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-4 py-12 md:py-16">
+        <TroubleshootingChecklist />
       </section>
     </div>
   );

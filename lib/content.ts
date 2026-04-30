@@ -136,6 +136,7 @@ export const RESEARCH_SLUGS = [
   'nature-vs-nurture',
   'epigenetics',
   'xylazine-polysubstance',
+  'what-happened-to-the-brain',
 ];
 
 // ─── About ────────────────────────────────────────────────────────────────────

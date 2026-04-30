@@ -5,53 +5,100 @@ slug: "about"
 
 ## About This Site
 
-This site was built by an adoptive parent of a child with prenatal opioid exposure (POE).
+This site was built by the foster and adoptive father of a child with prenatal opioid and polysubstance exposure.
 
-When we started this journey, the information available was either clinical (PubMed abstracts behind paywalls, NICU discharge packets) or narrative (forum posts, Facebook groups, personal blogs). There wasn't much in between — a resource that translated the science into practical, prioritized guidance without pretending the experience was something other than what it is.
+I am not writing this from a distance. I am writing from inside it.
 
-This is that resource. Or an attempt at one.
+My son is 2.5 years old now. I will keep updating this site as we learn, as he grows, and as the questions change.
+
+This is a journal of what I have learned: what helped, what did not help, what I wish I had understood earlier, and where standard advice did not fit the reality in front of us.
 
 ---
 
-### A Note on Terminology
+### Why I Built This
 
-This site uses **Prenatal Opioid Exposure (POE)** as the primary term for our child's condition. You'll also see NAS (Neonatal Abstinence Syndrome) used in places, particularly when discussing the acute withdrawal period in the NICU or when citing research that uses that term.
+My son was born in Philadelphia during the period when tranq — xylazine — was moving through the local fentanyl supply in a way that foreshadowed the larger xylazine/fentanyl crisis now spreading more widely.
 
-The distinction matters: NAS refers specifically to the withdrawal syndrome in the newborn period. POE describes the child more accurately across their whole life — including the long-term neurological and developmental sequelae that continue well beyond the NICU. At 2.5 years old, our child's challenges are not NAS. They are the ongoing developmental impact of prenatal opioid exposure.
+His birth mother was struggling with severe addiction. He was exposed prenatally to fentanyl adulterated with xylazine, and he also tested positive for cocaine at birth.
+
+He was born below the 1st percentile for length and head circumference, showing the tremendous impact this exposure had on his early development. Today, he is above the 95th percentile in those areas.
+
+That is hopeful. But it is not a simple miracle story.
+
+Things are not perfect. Far from it. We struggle every single day. This is the hardest thing I have ever done in my life.
+
+That tension is the reason this site exists: real progress is possible, but the path is not straightforward. Families need practical guidance that is honest about both improvement and difficulty.
+
+---
+
+### How I Approach This
+
+In my professional life, I am a senior tech worker at Google. I am used to approaching complex systems by breaking them down, looking for failure points, studying the data, testing interventions, and staying honest about uncertainty.
+
+I have brought that same systematic mindset to my son’s care.
+
+That does not make me a clinician or researcher. It does mean I have spent a lot of time trying to understand the best care and support available to him — across environment, therapy, movement, sleep, nutrition, sensory support, medical care, and caregiver co-regulation.
+
+This site is my attempt to share that work with other people who may be facing similar questions.
 
 ---
 
 ### What This Site Is
 
-A practical guide to the neurobiological mechanisms behind POE-related behaviors and the interventions that address them. Written for caregivers who want to understand *why* something works before deciding whether to invest in it.
+A practical, research-informed guide to prenatal opioid exposure and related developmental challenges.
 
-The voice is direct because clarity is more useful than comfort. The content is organized by symptom and intervention because that's how caregivers actually look for help — not by chapter, but by "my kid is doing X, what do I do."
+It is written for:
+
+- parents and caregivers who need help today
+- clinicians who want to understand how these issues show up at home
+- researchers who want to see where real-world care is more complex than single-domain intervention models
+
+The site is organized around a simple idea:
+
+> For prenatal exposure, the question is often not only “which intervention works?” but “what conditions does this child need before the intervention can work?”
+
+That is why the site talks about stacking supports: environment, co-regulation, sleep, movement, nutrition/GI, therapy, school/daycare, and medical care.
 
 ---
 
 ### What This Site Is Not
 
-- Medical advice. Consult your child's pediatrician and development team.
-- A comprehensive research database. For that: PubMed, the National Perinatal Association POE resources, the AAP's guidance.
-- A community or support group. For that: NAS/POE parent support groups on Facebook are the most active communities.
-- A finished product. This grows as we learn.
+- Medical advice. Consult your child’s pediatrician and care team.
+- A claim that my child’s path will be your child’s path.
+- A promise that any intervention will work for every child.
+- A comprehensive research database.
+- A finished product.
+
+This is one family’s lived experience, interpreted through research and systems thinking. Use it as a map of questions to ask, not as a substitute for medical care.
+
+---
+
+### A Note on Terminology
+
+This site uses **Prenatal Opioid Exposure (POE)** as the primary term. You will also see NAS (Neonatal Abstinence Syndrome), especially when discussing the newborn withdrawal period or research that uses that term.
+
+The distinction matters: NAS describes the acute withdrawal syndrome in the newborn period. POE better describes the longer developmental story — the regulation, sensory, sleep, feeding, behavioral, and learning questions that can continue long after the NICU.
+
+At 2.5 years old, my son’s challenges are not simply “NAS.” They are the ongoing developmental impact of prenatal exposure, early adversity, and the process of helping his nervous system grow with as much support as possible.
 
 ---
 
 ### Why Anonymous
 
-This child didn't choose to have their medical history online. When they're old enough to decide what they want shared, that decision belongs to them. Until then, anonymity is the right call.
+My child did not choose to have his medical history online. When he is old enough to decide what he wants shared, that decision belongs to him.
+
+Until then, anonymity is the right call.
 
 ---
 
 ### Affiliate Disclosure
 
-Some product recommendations on this site use affiliate links (primarily Amazon). If you purchase through those links, we receive a small commission at no additional cost to you. This helps cover site costs.
+Some product recommendations on this site may use affiliate links. If you purchase through those links, we may receive a small commission at no additional cost to you. This helps cover site costs.
 
-Product recommendations are based on what we've actually used and found helpful. We don't recommend products we haven't used. Commissions don't influence which products get recommended or what the content says about them.
+Product recommendations are based on what we have actually used and found helpful. We do not recommend products we have not used. Commissions do not influence what gets recommended or what the content says.
 
 ---
 
 ### Contact
 
-This site doesn't have a comments section. For questions or to report a factual error: [nas.journal.contact@gmail.com]
+This site does not have a comments section. For questions or to report a factual error: [nas.journal.contact@gmail.com]

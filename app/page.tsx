@@ -37,6 +37,34 @@ export default function Home() {
       </section>
 
       <section className="mx-auto max-w-6xl px-4 py-12 md:py-16">
+        <div className="rounded-3xl border border-sage-200 bg-white p-6 shadow-sm md:p-8">
+          <div className="grid gap-8 lg:grid-cols-[1.2fr_0.8fr] lg:items-start">
+            <div>
+              <p className="text-xs font-bold uppercase tracking-[0.18em] text-sage-700">Why I built this</p>
+              <h2 className="mt-2 font-serif text-3xl font-bold text-gray-900">I’m writing from inside this, not from a distance.</h2>
+              <div className="mt-4 space-y-4 leading-relaxed text-gray-600">
+                <p>
+                  I’m the foster and adoptive father of a 2.5-year-old son with prenatal exposure. This site is my journal of what I’ve learned while trying to understand what happened, what helped, what failed, and what standard advice missed.
+                </p>
+                <p>
+                  Things are not perfect. Far from it. We struggle every single day, and this is the hardest thing I’ve ever done in my life. I’m sharing this because other parents, clinicians, and researchers need more practical bridges between lived experience and the science.
+                </p>
+              </div>
+              <Link href="/about" className="mt-5 inline-flex rounded-xl bg-sage-700 px-4 py-2.5 text-sm font-semibold text-white hover:bg-sage-800">
+                Read the fuller story →
+              </Link>
+            </div>
+            <div className="rounded-2xl bg-sage-50 p-5 text-sm leading-relaxed text-sage-900">
+              <p className="font-semibold">How I approached the work</p>
+              <p className="mt-2">
+                In my day job, I’m a senior tech worker at Google. I’ve approached my son’s care the same way I approach complex systems at work: gather evidence, identify failure points, test carefully, track what changes, and stay honest about uncertainty.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-4 py-12 md:py-16">
         <div className="mb-8 max-w-3xl">
           <p className="text-xs font-bold uppercase tracking-[0.18em] text-amber-700">The core problem</p>
           <h2 className="mt-2 font-serif text-3xl font-bold text-gray-900">Sometimes the right advice still falls apart.</h2>

@@ -1440,7 +1440,7 @@ Final strategic statement:
 | 4 | Redesign homepage | Complete | Validator passed; tests/build passed. |
 | 5 | Prototype flagship Sleep page | Complete | Validator passed; Sleep page includes age lens, stack, troubleshooting, and audience notes. |
 | 6 | Migrate priority pages | Complete | Re-validator passed; all priority challenge pages include explicit age sections. |
-| 7 | QA, push, deploy validation | Pre-push validation complete | Independent validator passed; ready for commit, push, Actions deploy, and Cloud Run validation. |
+| 7 | QA, push, deploy validation | Complete | Tests/build/lint passed; commit `18a470f` pushed; GitHub Actions deploy succeeded; Cloud Run smoke checks passed. |
 
 
 ## Stage 1 Audit Snapshot — 2026-04-30
@@ -1602,3 +1602,23 @@ Stage 1 is complete when:
 - Duplication risks are identified. ✅
 - Validator re-check passes or only minor recommendations remain. ✅ Passed.
 
+
+
+## Final Deployment Record — 2026-04-30
+
+- Commit: `18a470f` — `feat: staged UX redesign around regulation stack`
+- GitHub Actions run: `25183095449` — Deploy to Cloud Run — success
+- Cloud Run URL: https://nas-journal-3blpadeyta-uc.a.run.app
+- Final local gates: `npm run test`, `npm run build`, `npm run lint` all passed.
+- Final deployed smoke checks returned HTTP 200 for:
+  - `/`
+  - `/start-here`
+  - `/challenges`
+  - `/stack`
+  - `/troubleshooting`
+  - `/clinicians-researchers`
+  - `/symptoms/sleep`
+  - `/symptoms/feeding`
+  - `/research/what-happened-to-the-brain`
+
+Non-blocking follow-up: GitHub Actions emitted a Node.js 20 deprecation annotation for upstream actions. Deployment succeeded, but the workflow should be reviewed before GitHub's 2026 Node 24 transition.

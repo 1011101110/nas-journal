@@ -2,6 +2,7 @@ import Link from "next/link";
 import SectionCard from "@/components/content/SectionCard";
 import StackLayerGrid from "@/components/content/StackLayerGrid";
 import TroubleshootingChecklist from "@/components/content/TroubleshootingChecklist";
+import SearchPrompt from "@/components/content/SearchPrompt";
 import { ageNavigation, challengeNavigation } from "@/lib/site-ia";
 
 export default function Home() {
@@ -11,13 +12,13 @@ export default function Home() {
         <div className="mx-auto max-w-6xl">
           <div className="max-w-4xl">
             <p className="mb-4 text-xs font-bold uppercase tracking-[0.2em] text-sage-700">
-              Parent-built · research-informed · clinically useful
+              Prenatal Opioid Exposure (POE) support · Parent-built · research-informed · clinically useful
             </p>
             <h1 className="font-serif text-4xl font-bold leading-tight text-gray-900 md:text-6xl">
-              Prenatal exposure is complex. Support has to be layered.
+              Prenatal opioid exposure is complex. Support has to be layered.
             </h1>
             <p className="mt-6 max-w-3xl text-lg leading-relaxed text-gray-600 md:text-xl">
-              A practical guide for families, clinicians, and researchers — focused on stacking environment,
+              A practical guide for families, clinicians, and researchers navigating Prenatal Opioid Exposure (POE) — focused on stacking environment,
               therapy, movement, sleep, nutrition, and caregiver support, then troubleshooting what to do when
               standard interventions do not work.
             </p>
@@ -32,6 +33,7 @@ export default function Home() {
                 When it’s not working
               </Link>
             </div>
+            <SearchPrompt />
           </div>
         </div>
       </section>
@@ -75,9 +77,9 @@ export default function Home() {
           </p>
         </div>
         <div className="grid gap-4 md:grid-cols-3">
-          <SectionCard href="/troubleshooting" eyebrow="Troubleshoot" title="What to do when it’s not working" description="Check development, body signals, sensory profile, environment, sequence, and caregiver capacity." accent="rose" />
-          <SectionCard href="/stack" eyebrow="Stack" title="Build conditions for change" description="See how different supports interact instead of treating each intervention as a silo." accent="blue" />
-          <SectionCard href="/clinicians-researchers" eyebrow="Bridge" title="Connect parents, clinicians, and researchers" description="Bring home observations, mechanisms, evidence boundaries, and research gaps into one framework." />
+          <SectionCard href="/troubleshooting" eyebrow="1 · Troubleshoot" title="What to do when it’s not working" description="Check development, body signals, sensory profile, environment, sequence, and caregiver capacity." accent="rose" />
+          <SectionCard href="/stack" eyebrow="2 · Stack" title="Build conditions for change" description="See how different supports interact instead of treating each intervention as a silo." accent="blue" />
+          <SectionCard href="/clinicians-researchers" eyebrow="3 · Bridge" title="Connect parents, clinicians, and researchers" description="Bring home observations, mechanisms, evidence boundaries, and research gaps into one framework." />
         </div>
       </section>
 
@@ -101,11 +103,11 @@ export default function Home() {
           <h2 className="mt-2 font-serif text-3xl font-bold text-gray-900">Enter by the question you have today.</h2>
         </div>
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-          <SectionCard href="/start-here" eyebrow="New here" title="Understand the big picture" description="What prenatal exposure can mean, why regulation matters, and how to use the site." />
+          <SectionCard href="/start-here" eyebrow="New here" title="Understand the big picture" description="What Prenatal Opioid Exposure can mean, why regulation matters, and how to use the site." />
+          <SectionCard href="/challenges" eyebrow="Urgent question" title="Find help by challenge" description="Sleep, sensory needs, feeding/GI, meltdowns, transitions, school, and therapy." accent="amber" />
+          <SectionCard href="/troubleshooting" eyebrow="Stuck" title="When advice is failing" description="Decide whether to persist, adapt, stack, pause, or escalate." accent="rose" />
           <SectionCard href="/age" eyebrow="Development" title="Browse by age" description="Interventions look different for a 6-month-old than a 2-year-old. Start with stage." accent="blue" />
-          <SectionCard href="/challenges" eyebrow="Practical" title="Browse by challenge" description="Sleep, sensory needs, feeding/GI, meltdowns, transitions, school, and therapy." accent="amber" />
           <SectionCard href="/stack" eyebrow="Integrated" title="Build the stack" description="Layer environment, co-regulation, sleep, movement, nutrition, therapy, and medical care." accent="blue" />
-          <SectionCard href="/troubleshooting" eyebrow="Stuck" title="Fix what is falling apart" description="Decide whether to persist, adapt, stack, pause, or escalate." accent="rose" />
           <SectionCard href="/clinicians-researchers" eyebrow="Professional" title="For clinicians & researchers" description="Mechanisms, evidence gaps, xylazine-era uncertainty, and integrated care framing." />
         </div>
       </section>

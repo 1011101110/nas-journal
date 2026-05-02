@@ -101,7 +101,7 @@ export default function Navigation() {
       <div className="mx-auto max-w-7xl px-4">
         <div className="flex h-16 items-center justify-between">
           <Link href="/" className="font-serif text-lg font-medium text-sage-100 transition-colors hover:text-white">
-            POE Support
+            POE Support <span className="hidden text-xs font-normal text-sage-300 sm:inline">· Prenatal Opioid Exposure</span>
           </Link>
 
           <div className="hidden items-center gap-1 text-sm lg:flex">
